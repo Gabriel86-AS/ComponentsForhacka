@@ -76,6 +76,7 @@ export interface MapProps {
 
 export function Map({ className }: MapProps) {
   const [selectedDate, setSelectedDate] = useState<DateFilter>("all");
+  const [viewState, setViewState] = useState(INITIAL_VIEW_STATE);
 
   const layer = useMemo(
     () =>
@@ -84,13 +85,13 @@ export function Map({ className }: MapProps) {
         data: pointsForDate(selectedDate),
         getPosition: (d) => [d.lng, d.lat],
         getWeight: (d) => d.weight,
-        radiusPixels: 60,
+        radiusPixels: 60 * Math.pow(2, viewState.zoom - 16),
         intensity: 1,
         threshold: 0.05,
         aggregation: "SUM",
         colorRange: HEATMAP_COLOR_RANGE,
       }),
-    [selectedDate]
+    [selectedDate, viewState.zoom]
   );
 
   return (
@@ -102,7 +103,8 @@ export function Map({ className }: MapProps) {
       id="sales-heatmap-container"
     >
       <DeckGL
-        initialViewState={INITIAL_VIEW_STATE}
+        viewState={viewState}
+        onViewStateChange={(e) => setViewState(e.viewState)}
         controller={true}
         layers={[layer]}
       >
@@ -120,7 +122,7 @@ export function Map({ className }: MapProps) {
           className={cn(
             "px-2.5 py-1 text-xs font-medium rounded-md transition-colors",
             selectedDate === "all"
-              ? "bg-gradient-to-br from-violet-500 to-indigo-600 text-white shadow-sm"
+              ? "bg-gradient-to-br from-green-500 to-emerald-600 text-white shadow-sm"
               : "text-foreground/70 hover:bg-muted"
           )}
         >
@@ -134,7 +136,7 @@ export function Map({ className }: MapProps) {
             className={cn(
               "px-2.5 py-1 text-xs font-medium rounded-md transition-colors",
               selectedDate === date
-                ? "bg-gradient-to-br from-violet-500 to-indigo-600 text-white shadow-sm"
+                ? "bg-gradient-to-br from-green-500 to-emerald-600 text-white shadow-sm"
                 : "text-foreground/70 hover:bg-muted"
             )}
           >
