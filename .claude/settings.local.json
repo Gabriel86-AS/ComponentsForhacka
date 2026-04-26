@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:ai-sdk.dev)",
+      "Bash(grep -E \"\\\\.json|\\\\.ts$|\\\\.js$\")",
+      "Bash(awk '{print $NF}')",
+      "Bash(node scripts/extractCoordinates.mjs)",
+      "Bash(npm install *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/src/App.tsx)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/src/components/Map.tsx)"
+    ]
+  }
+}

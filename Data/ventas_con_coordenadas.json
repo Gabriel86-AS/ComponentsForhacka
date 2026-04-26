@@ -1,0 +1,347 @@
+[
+  {
+    "tiendaId": 1,
+    "nombre": "D'moda",
+    "RUT": "900456123-4",
+    "owner": "Luz Marina Rodríguez Pérez",
+    "lat": 11.2448344,
+    "lng": -74.2102723,
+    "totalVentas": 223,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 83
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 99
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 41
+      }
+    ]
+  },
+  {
+    "tiendaId": 2,
+    "nombre": "Sensación",
+    "RUT": "830127895-2",
+    "owner": "Carlos Andrés Martínez Vega",
+    "lat": 11.242031,
+    "lng": -74.2109427,
+    "totalVentas": 395,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 119
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 201
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 75
+      }
+    ]
+  },
+  {
+    "tiendaId": 3,
+    "nombre": "Tienda VO5 Santa Marta",
+    "RUT": "900789456-1",
+    "owner": "Fernando Castro Mendoza",
+    "lat": 11.24405,
+    "lng": -74.2101316,
+    "totalVentas": 131,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 50
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 57
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 24
+      }
+    ]
+  },
+  {
+    "tiendaId": 4,
+    "nombre": "Surtidora de Confecciones",
+    "RUT": "800145672-9",
+    "owner": "María Elena Ospina Suárez",
+    "lat": 11.2421702,
+    "lng": -74.2106971,
+    "totalVentas": 573,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 180
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 278
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 115
+      }
+    ]
+  },
+  {
+    "tiendaId": 5,
+    "nombre": "Centro Adornos La 5ta",
+    "RUT": "901234567-3",
+    "owner": "Ana Cecilia Barrios Romero",
+    "lat": 11.246261,
+    "lng": -74.2096691,
+    "totalVentas": 264,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 98
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 130
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 36
+      }
+    ]
+  },
+  {
+    "tiendaId": 6,
+    "nombre": "Turks Holy Land",
+    "RUT": "830567891-5",
+    "owner": "Jorge Luis Hadad Mendoza",
+    "lat": 11.244129,
+    "lng": -74.2101725,
+    "totalVentas": 100,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 35
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 46
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 19
+      }
+    ]
+  },
+  {
+    "tiendaId": 7,
+    "nombre": "Mi Pequeño Ángel - Tienda Infantil",
+    "RUT": "1082945671-8",
+    "owner": "Astrid Carolina Pacheco Linero",
+    "lat": 11.2405548,
+    "lng": -74.2111844,
+    "totalVentas": 80,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 30
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 34
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 16
+      }
+    ]
+  },
+  {
+    "tiendaId": 8,
+    "nombre": "Ideas Santa Marta",
+    "RUT": "900876543-2",
+    "owner": "Patricia Eugenia Daza Ortiz",
+    "lat": 11.2396822,
+    "lng": -74.2116394,
+    "totalVentas": 150,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 63
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 71
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 16
+      }
+    ]
+  },
+  {
+    "tiendaId": 9,
+    "nombre": "Atlantis Shopping Center",
+    "RUT": "830445789-6",
+    "owner": "Roberto Antonio Goenaga Cabarcas",
+    "lat": 11.2388884,
+    "lng": -74.2110781,
+    "totalVentas": 1644,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 625
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 706
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 313
+      }
+    ]
+  },
+  {
+    "tiendaId": 10,
+    "nombre": "Fifth Avenue Mall",
+    "RUT": "900321654-7",
+    "owner": "Centro Comercial 5ta Avenida S.A.S.",
+    "lat": 11.236845,
+    "lng": -74.2101059,
+    "totalVentas": 1031,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 298
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 506
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 227
+      }
+    ]
+  },
+  {
+    "tiendaId": 11,
+    "nombre": "AMKTDigital",
+    "RUT": "1082567432-0",
+    "owner": "Andrea Marcela Quintero Tovar",
+    "lat": 11.2379615,
+    "lng": -74.2105897,
+    "totalVentas": 22,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 13
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 7
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 2
+      }
+    ]
+  },
+  {
+    "tiendaId": 12,
+    "nombre": "De Compras",
+    "RUT": "1129543210-4",
+    "owner": "Liliana Patricia Camargo Ríos",
+    "lat": 11.241339,
+    "lng": -74.2102113,
+    "totalVentas": 55,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 20
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 25
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 10
+      }
+    ]
+  },
+  {
+    "tiendaId": 13,
+    "nombre": "CO-43 Coworking Ejecutivo",
+    "RUT": "901567892-3",
+    "owner": "Daniel Esteban Robles Pinto",
+    "lat": 11.238999,
+    "lng": -74.209543,
+    "totalVentas": 81,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 52
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 22
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 7
+      }
+    ]
+  },
+  {
+    "tiendaId": 14,
+    "nombre": "Casa Marina Santa Marta",
+    "RUT": "900654987-1",
+    "owner": "Sofía Margarita Linero Bolaño",
+    "lat": 11.2412108,
+    "lng": -74.2155736,
+    "totalVentas": 904,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 276
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 372
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 256
+      }
+    ]
+  },
+  {
+    "tiendaId": 15,
+    "nombre": "Centro de Negocio EGO Omnilife",
+    "RUT": "830789012-5",
+    "owner": "Gloria Inés Vargas Henríquez",
+    "lat": 11.2418857,
+    "lng": -74.2098121,
+    "totalVentas": 64,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 36
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 22
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 6
+      }
+    ]
+  }
+]

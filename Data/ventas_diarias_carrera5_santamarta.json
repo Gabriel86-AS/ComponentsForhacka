@@ -1,0 +1,407 @@
+[
+  {
+    "tiendaId": 1,
+    "nombre": "D'moda",
+    "RUT": "900456123-4",
+    "owner": "Luz Marina Rodríguez Pérez",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/D%C2%B4moda/@11.2448344,-74.2102723,17z/data=!4m6!3m5!1s0x8ef4f564c6bd9611:0xa0051c7eb02a01ea!8m2!3d11.2448344!4d-74.2102723!16s%2Fg%2F11c5p3xqxh",
+    "numeroVentas": 83
+  },
+  {
+    "tiendaId": 1,
+    "nombre": "D'moda",
+    "RUT": "900456123-4",
+    "owner": "Luz Marina Rodríguez Pérez",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/D%C2%B4moda/@11.2448344,-74.2102723,17z/data=!4m6!3m5!1s0x8ef4f564c6bd9611:0xa0051c7eb02a01ea!8m2!3d11.2448344!4d-74.2102723!16s%2Fg%2F11c5p3xqxh",
+    "numeroVentas": 99
+  },
+  {
+    "tiendaId": 1,
+    "nombre": "D'moda",
+    "RUT": "900456123-4",
+    "owner": "Luz Marina Rodríguez Pérez",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/D%C2%B4moda/@11.2448344,-74.2102723,17z/data=!4m6!3m5!1s0x8ef4f564c6bd9611:0xa0051c7eb02a01ea!8m2!3d11.2448344!4d-74.2102723!16s%2Fg%2F11c5p3xqxh",
+    "numeroVentas": 41
+  },
+  {
+    "tiendaId": 2,
+    "nombre": "Sensación",
+    "RUT": "830127895-2",
+    "owner": "Carlos Andrés Martínez Vega",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Sensacion/@11.242031,-74.2109427,17z/data=!4m6!3m5!1s0x8ef4f57b6b9b8527:0x549c88b54fcfe391!8m2!3d11.242031!4d-74.2109427!16s%2Fg%2F11c1q5z3jp",
+    "numeroVentas": 119
+  },
+  {
+    "tiendaId": 2,
+    "nombre": "Sensación",
+    "RUT": "830127895-2",
+    "owner": "Carlos Andrés Martínez Vega",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Sensacion/@11.242031,-74.2109427,17z/data=!4m6!3m5!1s0x8ef4f57b6b9b8527:0x549c88b54fcfe391!8m2!3d11.242031!4d-74.2109427!16s%2Fg%2F11c1q5z3jp",
+    "numeroVentas": 201
+  },
+  {
+    "tiendaId": 2,
+    "nombre": "Sensación",
+    "RUT": "830127895-2",
+    "owner": "Carlos Andrés Martínez Vega",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Sensacion/@11.242031,-74.2109427,17z/data=!4m6!3m5!1s0x8ef4f57b6b9b8527:0x549c88b54fcfe391!8m2!3d11.242031!4d-74.2109427!16s%2Fg%2F11c1q5z3jp",
+    "numeroVentas": 75
+  },
+  {
+    "tiendaId": 3,
+    "nombre": "Tienda VO5 Santa Marta",
+    "RUT": "900789456-1",
+    "owner": "Fernando Castro Mendoza",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Tienda+VO5+Santa+Marta/@11.24405,-74.2101316,17z/data=!4m6!3m5!1s0x8ef4f564e9ee055d:0x5c988fb9fe6b5dd9!8m2!3d11.24405!4d-74.2101316!16s%2Fg%2F11g0c5x9w2",
+    "numeroVentas": 50
+  },
+  {
+    "tiendaId": 3,
+    "nombre": "Tienda VO5 Santa Marta",
+    "RUT": "900789456-1",
+    "owner": "Fernando Castro Mendoza",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Tienda+VO5+Santa+Marta/@11.24405,-74.2101316,17z/data=!4m6!3m5!1s0x8ef4f564e9ee055d:0x5c988fb9fe6b5dd9!8m2!3d11.24405!4d-74.2101316!16s%2Fg%2F11g0c5x9w2",
+    "numeroVentas": 57
+  },
+  {
+    "tiendaId": 3,
+    "nombre": "Tienda VO5 Santa Marta",
+    "RUT": "900789456-1",
+    "owner": "Fernando Castro Mendoza",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Tienda+VO5+Santa+Marta/@11.24405,-74.2101316,17z/data=!4m6!3m5!1s0x8ef4f564e9ee055d:0x5c988fb9fe6b5dd9!8m2!3d11.24405!4d-74.2101316!16s%2Fg%2F11g0c5x9w2",
+    "numeroVentas": 24
+  },
+  {
+    "tiendaId": 4,
+    "nombre": "Surtidora de Confecciones",
+    "RUT": "800145672-9",
+    "owner": "María Elena Ospina Suárez",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Surtidora+de+Confecciones/@11.2421702,-74.2106971,17z/data=!4m6!3m5!1s0x8ef4f57b6b6901f1:0xfd56fb38b25bb2b7!8m2!3d11.2421702!4d-74.2106971!16s%2Fg%2F11bw3vy0fz",
+    "numeroVentas": 180
+  },
+  {
+    "tiendaId": 4,
+    "nombre": "Surtidora de Confecciones",
+    "RUT": "800145672-9",
+    "owner": "María Elena Ospina Suárez",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Surtidora+de+Confecciones/@11.2421702,-74.2106971,17z/data=!4m6!3m5!1s0x8ef4f57b6b6901f1:0xfd56fb38b25bb2b7!8m2!3d11.2421702!4d-74.2106971!16s%2Fg%2F11bw3vy0fz",
+    "numeroVentas": 278
+  },
+  {
+    "tiendaId": 4,
+    "nombre": "Surtidora de Confecciones",
+    "RUT": "800145672-9",
+    "owner": "María Elena Ospina Suárez",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Surtidora+de+Confecciones/@11.2421702,-74.2106971,17z/data=!4m6!3m5!1s0x8ef4f57b6b6901f1:0xfd56fb38b25bb2b7!8m2!3d11.2421702!4d-74.2106971!16s%2Fg%2F11bw3vy0fz",
+    "numeroVentas": 115
+  },
+  {
+    "tiendaId": 5,
+    "nombre": "Centro Adornos La 5ta",
+    "RUT": "901234567-3",
+    "owner": "Ana Cecilia Barrios Romero",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/CENTRO+ADORNOS+LA+5TA/@11.246261,-74.2096691,17z/data=!4m6!3m5!1s0x8ef4f564f65e1ff5:0x74d4be069d3a057b!8m2!3d11.246261!4d-74.2096691!16s%2Fg%2F11h4q6w9b1",
+    "numeroVentas": 98
+  },
+  {
+    "tiendaId": 5,
+    "nombre": "Centro Adornos La 5ta",
+    "RUT": "901234567-3",
+    "owner": "Ana Cecilia Barrios Romero",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/CENTRO+ADORNOS+LA+5TA/@11.246261,-74.2096691,17z/data=!4m6!3m5!1s0x8ef4f564f65e1ff5:0x74d4be069d3a057b!8m2!3d11.246261!4d-74.2096691!16s%2Fg%2F11h4q6w9b1",
+    "numeroVentas": 130
+  },
+  {
+    "tiendaId": 5,
+    "nombre": "Centro Adornos La 5ta",
+    "RUT": "901234567-3",
+    "owner": "Ana Cecilia Barrios Romero",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/CENTRO+ADORNOS+LA+5TA/@11.246261,-74.2096691,17z/data=!4m6!3m5!1s0x8ef4f564f65e1ff5:0x74d4be069d3a057b!8m2!3d11.246261!4d-74.2096691!16s%2Fg%2F11h4q6w9b1",
+    "numeroVentas": 36
+  },
+  {
+    "tiendaId": 6,
+    "nombre": "Turks Holy Land",
+    "RUT": "830567891-5",
+    "owner": "Jorge Luis Hadad Mendoza",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Turks+Holy+Land/@11.244129,-74.2101725,17z/data=!4m6!3m5!1s0x8ef4f564c95100e1:0x5c997a069c456256!8m2!3d11.244129!4d-74.2101725!16s%2Fg%2F11c5q8y0pq",
+    "numeroVentas": 35
+  },
+  {
+    "tiendaId": 6,
+    "nombre": "Turks Holy Land",
+    "RUT": "830567891-5",
+    "owner": "Jorge Luis Hadad Mendoza",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Turks+Holy+Land/@11.244129,-74.2101725,17z/data=!4m6!3m5!1s0x8ef4f564c95100e1:0x5c997a069c456256!8m2!3d11.244129!4d-74.2101725!16s%2Fg%2F11c5q8y0pq",
+    "numeroVentas": 46
+  },
+  {
+    "tiendaId": 6,
+    "nombre": "Turks Holy Land",
+    "RUT": "830567891-5",
+    "owner": "Jorge Luis Hadad Mendoza",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Turks+Holy+Land/@11.244129,-74.2101725,17z/data=!4m6!3m5!1s0x8ef4f564c95100e1:0x5c997a069c456256!8m2!3d11.244129!4d-74.2101725!16s%2Fg%2F11c5q8y0pq",
+    "numeroVentas": 19
+  },
+  {
+    "tiendaId": 7,
+    "nombre": "Mi Pequeño Ángel - Tienda Infantil",
+    "RUT": "1082945671-8",
+    "owner": "Astrid Carolina Pacheco Linero",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Mi+Peque%C3%B1o+%C3%81ngel,+Tienda+Infantil/@11.2405548,-74.2111844,17z/data=!4m6!3m5!1s0x4953a7be3fbd0cb3:0x4dee36f3f4961ef6!8m2!3d11.2405548!4d-74.2111844!16s%2Fg%2F11vp7g3t2x",
+    "numeroVentas": 30
+  },
+  {
+    "tiendaId": 7,
+    "nombre": "Mi Pequeño Ángel - Tienda Infantil",
+    "RUT": "1082945671-8",
+    "owner": "Astrid Carolina Pacheco Linero",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Mi+Peque%C3%B1o+%C3%81ngel,+Tienda+Infantil/@11.2405548,-74.2111844,17z/data=!4m6!3m5!1s0x4953a7be3fbd0cb3:0x4dee36f3f4961ef6!8m2!3d11.2405548!4d-74.2111844!16s%2Fg%2F11vp7g3t2x",
+    "numeroVentas": 34
+  },
+  {
+    "tiendaId": 7,
+    "nombre": "Mi Pequeño Ángel - Tienda Infantil",
+    "RUT": "1082945671-8",
+    "owner": "Astrid Carolina Pacheco Linero",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Mi+Peque%C3%B1o+%C3%81ngel,+Tienda+Infantil/@11.2405548,-74.2111844,17z/data=!4m6!3m5!1s0x4953a7be3fbd0cb3:0x4dee36f3f4961ef6!8m2!3d11.2405548!4d-74.2111844!16s%2Fg%2F11vp7g3t2x",
+    "numeroVentas": 16
+  },
+  {
+    "tiendaId": 8,
+    "nombre": "Ideas Santa Marta",
+    "RUT": "900876543-2",
+    "owner": "Patricia Eugenia Daza Ortiz",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Ideas+Santa+Marta/@11.2396822,-74.2116394,17z/data=!4m6!3m5!1s0x8ef4f581551013:0xada7b037e544fedd!8m2!3d11.2396822!4d-74.2116394!16s%2Fg%2F11p5w8v9k3",
+    "numeroVentas": 63
+  },
+  {
+    "tiendaId": 8,
+    "nombre": "Ideas Santa Marta",
+    "RUT": "900876543-2",
+    "owner": "Patricia Eugenia Daza Ortiz",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Ideas+Santa+Marta/@11.2396822,-74.2116394,17z/data=!4m6!3m5!1s0x8ef4f581551013:0xada7b037e544fedd!8m2!3d11.2396822!4d-74.2116394!16s%2Fg%2F11p5w8v9k3",
+    "numeroVentas": 71
+  },
+  {
+    "tiendaId": 8,
+    "nombre": "Ideas Santa Marta",
+    "RUT": "900876543-2",
+    "owner": "Patricia Eugenia Daza Ortiz",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Ideas+Santa+Marta/@11.2396822,-74.2116394,17z/data=!4m6!3m5!1s0x8ef4f581551013:0xada7b037e544fedd!8m2!3d11.2396822!4d-74.2116394!16s%2Fg%2F11p5w8v9k3",
+    "numeroVentas": 16
+  },
+  {
+    "tiendaId": 9,
+    "nombre": "Atlantis Shopping Center",
+    "RUT": "830445789-6",
+    "owner": "Roberto Antonio Goenaga Cabarcas",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Atlantis+Shopping+Center/@11.2388884,-74.2110781,17z/data=!4m6!3m5!1s0x8ef4f57bed7fe98f:0xe6962036f681567e!8m2!3d11.2388884!4d-74.2110781!16s%2Fg%2F11b6c3z9wr",
+    "numeroVentas": 625
+  },
+  {
+    "tiendaId": 9,
+    "nombre": "Atlantis Shopping Center",
+    "RUT": "830445789-6",
+    "owner": "Roberto Antonio Goenaga Cabarcas",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Atlantis+Shopping+Center/@11.2388884,-74.2110781,17z/data=!4m6!3m5!1s0x8ef4f57bed7fe98f:0xe6962036f681567e!8m2!3d11.2388884!4d-74.2110781!16s%2Fg%2F11b6c3z9wr",
+    "numeroVentas": 706
+  },
+  {
+    "tiendaId": 9,
+    "nombre": "Atlantis Shopping Center",
+    "RUT": "830445789-6",
+    "owner": "Roberto Antonio Goenaga Cabarcas",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Atlantis+Shopping+Center/@11.2388884,-74.2110781,17z/data=!4m6!3m5!1s0x8ef4f57bed7fe98f:0xe6962036f681567e!8m2!3d11.2388884!4d-74.2110781!16s%2Fg%2F11b6c3z9wr",
+    "numeroVentas": 313
+  },
+  {
+    "tiendaId": 10,
+    "nombre": "Fifth Avenue Mall",
+    "RUT": "900321654-7",
+    "owner": "Centro Comercial 5ta Avenida S.A.S.",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Fifth+Avenue+Mall/@11.236845,-74.2101059,17z/data=!4m6!3m5!1s0x8ef4f5796c2f8421f:0xc997bec06b8e27f7!8m2!3d11.236845!4d-74.2101059!16s%2Fg%2F11b7k9rqxw",
+    "numeroVentas": 298
+  },
+  {
+    "tiendaId": 10,
+    "nombre": "Fifth Avenue Mall",
+    "RUT": "900321654-7",
+    "owner": "Centro Comercial 5ta Avenida S.A.S.",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Fifth+Avenue+Mall/@11.236845,-74.2101059,17z/data=!4m6!3m5!1s0x8ef4f5796c2f8421f:0xc997bec06b8e27f7!8m2!3d11.236845!4d-74.2101059!16s%2Fg%2F11b7k9rqxw",
+    "numeroVentas": 506
+  },
+  {
+    "tiendaId": 10,
+    "nombre": "Fifth Avenue Mall",
+    "RUT": "900321654-7",
+    "owner": "Centro Comercial 5ta Avenida S.A.S.",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Fifth+Avenue+Mall/@11.236845,-74.2101059,17z/data=!4m6!3m5!1s0x8ef4f5796c2f8421f:0xc997bec06b8e27f7!8m2!3d11.236845!4d-74.2101059!16s%2Fg%2F11b7k9rqxw",
+    "numeroVentas": 227
+  },
+  {
+    "tiendaId": 11,
+    "nombre": "AMKTDigital",
+    "RUT": "1082567432-0",
+    "owner": "Andrea Marcela Quintero Tovar",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/AMKTDigital/@11.2379615,-74.2105897,17z/data=!4m6!3m5!1s0x8ef4f55901281839:0xc6f9143ccb07f5a1!8m2!3d11.2379615!4d-74.2105897!16s%2Fg%2F11s3w5q8nx",
+    "numeroVentas": 13
+  },
+  {
+    "tiendaId": 11,
+    "nombre": "AMKTDigital",
+    "RUT": "1082567432-0",
+    "owner": "Andrea Marcela Quintero Tovar",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/AMKTDigital/@11.2379615,-74.2105897,17z/data=!4m6!3m5!1s0x8ef4f55901281839:0xc6f9143ccb07f5a1!8m2!3d11.2379615!4d-74.2105897!16s%2Fg%2F11s3w5q8nx",
+    "numeroVentas": 7
+  },
+  {
+    "tiendaId": 11,
+    "nombre": "AMKTDigital",
+    "RUT": "1082567432-0",
+    "owner": "Andrea Marcela Quintero Tovar",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/AMKTDigital/@11.2379615,-74.2105897,17z/data=!4m6!3m5!1s0x8ef4f55901281839:0xc6f9143ccb07f5a1!8m2!3d11.2379615!4d-74.2105897!16s%2Fg%2F11s3w5q8nx",
+    "numeroVentas": 2
+  },
+  {
+    "tiendaId": 12,
+    "nombre": "De Compras",
+    "RUT": "1129543210-4",
+    "owner": "Liliana Patricia Camargo Ríos",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/De+Compras/@11.241339,-74.2102113,17z/data=!4m6!3m5!1s0x8ef4f5210dfce851:0x7eaafa49710911d7!8m2!3d11.241339!4d-74.2102113!16s%2Fg%2F11k3p9w8q7",
+    "numeroVentas": 20
+  },
+  {
+    "tiendaId": 12,
+    "nombre": "De Compras",
+    "RUT": "1129543210-4",
+    "owner": "Liliana Patricia Camargo Ríos",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/De+Compras/@11.241339,-74.2102113,17z/data=!4m6!3m5!1s0x8ef4f5210dfce851:0x7eaafa49710911d7!8m2!3d11.241339!4d-74.2102113!16s%2Fg%2F11k3p9w8q7",
+    "numeroVentas": 25
+  },
+  {
+    "tiendaId": 12,
+    "nombre": "De Compras",
+    "RUT": "1129543210-4",
+    "owner": "Liliana Patricia Camargo Ríos",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/De+Compras/@11.241339,-74.2102113,17z/data=!4m6!3m5!1s0x8ef4f5210dfce851:0x7eaafa49710911d7!8m2!3d11.241339!4d-74.2102113!16s%2Fg%2F11k3p9w8q7",
+    "numeroVentas": 10
+  },
+  {
+    "tiendaId": 13,
+    "nombre": "CO-43 Coworking Ejecutivo",
+    "RUT": "901567892-3",
+    "owner": "Daniel Esteban Robles Pinto",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/CO-43+Coworking+Ejecutivo/@11.238999,-74.209543,17z/data=!4m6!3m5!1s0x8ef4f5a2e9978611:0x8516ac1b46e5e049!8m2!3d11.238999!4d-74.209543!16s%2Fg%2F11n7v3w2dq",
+    "numeroVentas": 52
+  },
+  {
+    "tiendaId": 13,
+    "nombre": "CO-43 Coworking Ejecutivo",
+    "RUT": "901567892-3",
+    "owner": "Daniel Esteban Robles Pinto",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/CO-43+Coworking+Ejecutivo/@11.238999,-74.209543,17z/data=!4m6!3m5!1s0x8ef4f5a2e9978611:0x8516ac1b46e5e049!8m2!3d11.238999!4d-74.209543!16s%2Fg%2F11n7v3w2dq",
+    "numeroVentas": 22
+  },
+  {
+    "tiendaId": 13,
+    "nombre": "CO-43 Coworking Ejecutivo",
+    "RUT": "901567892-3",
+    "owner": "Daniel Esteban Robles Pinto",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/CO-43+Coworking+Ejecutivo/@11.238999,-74.209543,17z/data=!4m6!3m5!1s0x8ef4f5a2e9978611:0x8516ac1b46e5e049!8m2!3d11.238999!4d-74.209543!16s%2Fg%2F11n7v3w2dq",
+    "numeroVentas": 7
+  },
+  {
+    "tiendaId": 14,
+    "nombre": "Casa Marina Santa Marta",
+    "RUT": "900654987-1",
+    "owner": "Sofía Margarita Linero Bolaño",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Casa+Marina+Santa+Marta/@11.2412108,-74.2155736,17z/data=!4m6!3m5!1s0x8ef4f5877987fe7:0x45378aa28a19815!8m2!3d11.2412108!4d-74.2155736!16s%2Fg%2F11r5w8q3cn",
+    "numeroVentas": 276
+  },
+  {
+    "tiendaId": 14,
+    "nombre": "Casa Marina Santa Marta",
+    "RUT": "900654987-1",
+    "owner": "Sofía Margarita Linero Bolaño",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Casa+Marina+Santa+Marta/@11.2412108,-74.2155736,17z/data=!4m6!3m5!1s0x8ef4f5877987fe7:0x45378aa28a19815!8m2!3d11.2412108!4d-74.2155736!16s%2Fg%2F11r5w8q3cn",
+    "numeroVentas": 372
+  },
+  {
+    "tiendaId": 14,
+    "nombre": "Casa Marina Santa Marta",
+    "RUT": "900654987-1",
+    "owner": "Sofía Margarita Linero Bolaño",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Casa+Marina+Santa+Marta/@11.2412108,-74.2155736,17z/data=!4m6!3m5!1s0x8ef4f5877987fe7:0x45378aa28a19815!8m2!3d11.2412108!4d-74.2155736!16s%2Fg%2F11r5w8q3cn",
+    "numeroVentas": 256
+  },
+  {
+    "tiendaId": 15,
+    "nombre": "Centro de Negocio EGO Omnilife",
+    "RUT": "830789012-5",
+    "owner": "Gloria Inés Vargas Henríquez",
+    "fecha": "2026-04-24",
+    "direccion": "https://www.google.com/maps/place/Centro+De+Negocio+EGO+OMNILIFE/@11.2418857,-74.2098121,17z/data=!4m6!3m5!1s0x8ef4f51645ef2fef:0xf29938ec9e4a4267!8m2!3d11.2418857!4d-74.2098121!16s%2Fg%2F11jq4w9k2p",
+    "numeroVentas": 36
+  },
+  {
+    "tiendaId": 15,
+    "nombre": "Centro de Negocio EGO Omnilife",
+    "RUT": "830789012-5",
+    "owner": "Gloria Inés Vargas Henríquez",
+    "fecha": "2026-04-25",
+    "direccion": "https://www.google.com/maps/place/Centro+De+Negocio+EGO+OMNILIFE/@11.2418857,-74.2098121,17z/data=!4m6!3m5!1s0x8ef4f51645ef2fef:0xf29938ec9e4a4267!8m2!3d11.2418857!4d-74.2098121!16s%2Fg%2F11jq4w9k2p",
+    "numeroVentas": 22
+  },
+  {
+    "tiendaId": 15,
+    "nombre": "Centro de Negocio EGO Omnilife",
+    "RUT": "830789012-5",
+    "owner": "Gloria Inés Vargas Henríquez",
+    "fecha": "2026-04-26",
+    "direccion": "https://www.google.com/maps/place/Centro+De+Negocio+EGO+OMNILIFE/@11.2418857,-74.2098121,17z/data=!4m6!3m5!1s0x8ef4f51645ef2fef:0xf29938ec9e4a4267!8m2!3d11.2418857!4d-74.2098121!16s%2Fg%2F11jq4w9k2p",
+    "numeroVentas": 6
+  }
+]
