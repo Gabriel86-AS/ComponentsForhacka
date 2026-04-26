@@ -27,7 +27,16 @@ interface SalesPoint {
   weight: number;
 }
 
-const STORES = salesData as Store[];
+// Carrera 5 (Quinta) en Santa Marta corre de norte a sur por el Centro Histórico.
+// Bounds verificados con Google Maps y nombres en los datos: "Droguerías Universal (Cra 5)"
+// está en lng -74.2104 y "Surti Chanclas La 5ta" en lng -74.2110, mientras que "Cra 2b"
+// está en -74.2126 y "Cl 22" en -74.2121, fuera del corredor.
+const CRA_5_LNG_MIN = -74.2114;
+const CRA_5_LNG_MAX = -74.2099;
+
+const STORES = (salesData as Store[]).filter(
+  (s) => s.lng >= CRA_5_LNG_MIN && s.lng <= CRA_5_LNG_MAX
+);
 
 const ALL_DATES = Array.from(
   new Set(STORES.flatMap((s) => s.ventasPorFecha.map((v) => v.fecha)))

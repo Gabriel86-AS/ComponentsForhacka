@@ -1,7 +1,7 @@
-import { useState, useRef, useEffect, useCallback, type KeyboardEvent } from "react";
+import { useState, useRef, useEffect, useCallback, useMemo, type KeyboardEvent } from "react";
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport, type UIMessage } from "ai";
-import { Bot, User, Send, Square, RotateCcw, MessageSquare } from "lucide-react";
+import { Bot, User, Send, Square, RotateCcw, MessageSquare, Trash2 } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { cn } from "@/lib/utils";
@@ -37,6 +37,25 @@ export interface ChatbotProps {
 }
 
 /* ------------------------------------------------------------------ */
+/*  Persistencia                                                       */
+/* ------------------------------------------------------------------ */
+// sessionStorage sobrevive recargas (F5) dentro de la misma pestaña y se
+// limpia al cerrar la pestaña/navegador, que es lo que pidió el usuario.
+const STORAGE_KEY = "chatbot:messages:v1";
+
+function loadStoredMessages(): UIMessage[] | undefined {
+  if (typeof window === "undefined") return undefined;
+  try {
+    const raw = window.sessionStorage.getItem(STORAGE_KEY);
+    if (!raw) return undefined;
+    const parsed = JSON.parse(raw) as unknown;
+    return Array.isArray(parsed) && parsed.length > 0 ? (parsed as UIMessage[]) : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/* ------------------------------------------------------------------ */
 /*  Component                                                          */
 /* ------------------------------------------------------------------ */
 export function Chatbot(props: Readonly<ChatbotProps>) {
@@ -57,19 +76,54 @@ export function Chatbot(props: Readonly<ChatbotProps>) {
   const hasFile = useExcelStore((state) => state.hasFile);
   const excelData = useExcelStore((state) => state.data);
 
+  /* ---- Hidratar mensajes guardados (una sola vez en el primer render) ---- */
+  const [seedMessages] = useState<UIMessage[] | undefined>(
+    () => initialMessages ?? loadStoredMessages()
+  );
+
+  /* ---- Transport memoizado (evita reinstanciar en cada render) ---- */
+  const transport = useMemo(
+    () =>
+      new DefaultChatTransport({
+        api: apiEndpoint,
+        body: { model, system },
+      }),
+    [apiEndpoint, model, system]
+  );
+
   /* ---- useChat (AI SDK v5 / @ai-sdk/react v2) ---- */
-  const { messages, sendMessage, status, error, stop, regenerate } = useChat({
-    transport: new DefaultChatTransport({
-      api: apiEndpoint,
-      body: { model, system },
-    }),
-    messages: initialMessages,
+  const { messages, sendMessage, status, error, stop, regenerate, setMessages } = useChat({
+    transport,
+    messages: seedMessages,
     onFinish: ({ isAbort, isError }) => {
       if (!isAbort && !isError) {
         clearExcelData();
       }
     },
   });
+
+  /* ---- Persistir mensajes en sessionStorage cada vez que cambian ---- */
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      if (messages.length === 0) {
+        window.sessionStorage.removeItem(STORAGE_KEY);
+      } else {
+        window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
+      }
+    } catch {
+      // Almacenamiento puede fallar (modo privado, cuota llena); ignorar.
+    }
+  }, [messages]);
+
+  const handleClearChat = useCallback(() => {
+    setMessages([]);
+    try {
+      window.sessionStorage.removeItem(STORAGE_KEY);
+    } catch {
+      /* noop */
+    }
+  }, [setMessages]);
 
   const isLoading = status === "submitted" || status === "streaming";
 
@@ -144,11 +198,26 @@ export function Chatbot(props: Readonly<ChatbotProps>) {
     >
       {/* ---- Header ---- */}
       <CardHeader className="border-b border-border/50 pb-4 flex-shrink-0">
-        <CardTitle className="flex items-center gap-2 text-lg">
-          <div className="flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 text-white">
-            <Bot className="w-4 h-4" />
+        <CardTitle className="flex items-center justify-between gap-2 text-lg">
+          <div className="flex items-center gap-2">
+            <div className="flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 text-white">
+              <Bot className="w-4 h-4" />
+            </div>
+            {title}
           </div>
-          {title}
+          {messages.length > 0 && (
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={handleClearChat}
+              disabled={isLoading}
+              className="h-8 w-8 text-muted-foreground hover:text-destructive"
+              title="Limpiar conversación"
+              id="chatbot-clear-btn"
+            >
+              <Trash2 className="w-4 h-4" />
+            </Button>
+          )}
         </CardTitle>
       </CardHeader>
 
