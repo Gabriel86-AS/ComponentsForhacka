@@ -4,7 +4,7 @@ import { dirname, resolve } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(__dirname, "..");
-const inputPath = resolve(projectRoot, "Data/ventas_diarias_carrera5_santamarta.json");
+const inputPath = resolve(projectRoot, "Data/ventas_diarias_carrera5_santamarta_full.json");
 const outputPath = resolve(projectRoot, "Data/ventas_con_coordenadas.json");
 
 const COORD_REGEX = /@(-?\d+\.\d+),(-?\d+\.\d+),\d+(?:\.\d+)?z/;

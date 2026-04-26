@@ -2,19 +2,456 @@
   {
     "tiendaId": 1,
     "nombre": "D'moda",
-    "RUT": "900456123-4",
-    "owner": "Luz Marina Rodríguez Pérez",
+    "RUT": "947755242-3",
+    "owner": "Miguel Rodríguez Ortega",
     "lat": 11.2448344,
     "lng": -74.2102723,
-    "totalVentas": 223,
+    "totalVentas": 212,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 83
+        "numeroVentas": 66
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 99
+        "numeroVentas": 111
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 35
+      }
+    ]
+  },
+  {
+    "tiendaId": 2,
+    "nombre": "Sensación",
+    "RUT": "855126676-8",
+    "owner": "Iván Barrios Ortega",
+    "lat": 11.242031,
+    "lng": -74.2109427,
+    "totalVentas": 187,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 59
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 93
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 35
+      }
+    ]
+  },
+  {
+    "tiendaId": 3,
+    "nombre": "Tienda VO5 Santa Marta",
+    "RUT": "817163198-0",
+    "owner": "Andrés Gómez Vargas",
+    "lat": 11.24405,
+    "lng": -74.2101316,
+    "totalVentas": 593,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 197
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 302
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 94
+      }
+    ]
+  },
+  {
+    "tiendaId": 4,
+    "nombre": "Surtidora de Confecciones",
+    "RUT": "1071410554-9",
+    "owner": "Andrés Pacheco Daza",
+    "lat": 11.2421702,
+    "lng": -74.2106971,
+    "totalVentas": 246,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 82
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 116
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 48
+      }
+    ]
+  },
+  {
+    "tiendaId": 5,
+    "nombre": "Almacén Tierra Santa",
+    "RUT": "1184510102-8",
+    "owner": "Fernando Pérez Pacheco",
+    "lat": 11.2417115,
+    "lng": -74.2068356,
+    "totalVentas": 345,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 110
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 181
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 54
+      }
+    ]
+  },
+  {
+    "tiendaId": 6,
+    "nombre": "Turks Holy Land",
+    "RUT": "1116459605-4",
+    "owner": "Andrea Daza Mendoza",
+    "lat": 11.244129,
+    "lng": -74.2101725,
+    "totalVentas": 348,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 125
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 155
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 68
+      }
+    ]
+  },
+  {
+    "tiendaId": 7,
+    "nombre": "Mi Pequeño Ángel - Tienda Infantil",
+    "RUT": "1174910735-6",
+    "owner": "Carlos Salcedo Hadad",
+    "lat": 11.2405548,
+    "lng": -74.2111844,
+    "totalVentas": 552,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 183
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 264
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 105
+      }
+    ]
+  },
+  {
+    "tiendaId": 8,
+    "nombre": "De Compras",
+    "RUT": "915695695-5",
+    "owner": "María Elena Goenaga Barrios",
+    "lat": 11.241339,
+    "lng": -74.2102113,
+    "totalVentas": 283,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 98
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 133
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 52
+      }
+    ]
+  },
+  {
+    "tiendaId": 9,
+    "nombre": "COMPLOT URBAN SEDE 1",
+    "RUT": "852024210-5",
+    "owner": "Luis Castro Linero",
+    "lat": 11.2412428,
+    "lng": -74.2109709,
+    "totalVentas": 383,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 127
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 185
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 71
+      }
+    ]
+  },
+  {
+    "tiendaId": 10,
+    "nombre": "TURkO JEANS",
+    "RUT": "823427276-7",
+    "owner": "Ana Cecilia Henríquez Goenaga",
+    "lat": 11.2398058,
+    "lng": -74.21097,
+    "totalVentas": 277,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 87
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 145
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 45
+      }
+    ]
+  },
+  {
+    "tiendaId": 11,
+    "nombre": "Mas x Menos",
+    "RUT": "842405533-8",
+    "owner": "Esperanza Ospina Linero",
+    "lat": 11.2422859,
+    "lng": -74.2108642,
+    "totalVentas": 686,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 237
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 325
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 124
+      }
+    ]
+  },
+  {
+    "tiendaId": 12,
+    "nombre": "Mattelsa Santa Marta",
+    "RUT": "994251326-9",
+    "owner": "Eduardo Bolaño Henríquez",
+    "lat": 11.2356869,
+    "lng": -74.2099393,
+    "totalVentas": 636,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 214
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 315
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 107
+      }
+    ]
+  },
+  {
+    "tiendaId": 13,
+    "nombre": "QUEST S.A.S.",
+    "RUT": "824701779-3",
+    "owner": "Mauricio Bermúdez Castro",
+    "lat": 11.2438949,
+    "lng": -74.210377,
+    "totalVentas": 319,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 96
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 167
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 56
+      }
+    ]
+  },
+  {
+    "tiendaId": 14,
+    "nombre": "Los Vestidos",
+    "RUT": "854324730-6",
+    "owner": "Eduardo Castro Daza",
+    "lat": 11.2442429,
+    "lng": -74.2103433,
+    "totalVentas": 534,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 161
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 275
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 98
+      }
+    ]
+  },
+  {
+    "tiendaId": 15,
+    "nombre": "Mil Variedades Manzanares",
+    "RUT": "995967784-2",
+    "owner": "Gabriel Mendoza Bolaño",
+    "lat": 11.2314846,
+    "lng": -74.2105526,
+    "totalVentas": 482,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 157
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 236
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 89
+      }
+    ]
+  },
+  {
+    "tiendaId": 16,
+    "nombre": "Calzado Pisarte",
+    "RUT": "1159897556-4",
+    "owner": "Patricia Robles Pacheco",
+    "lat": 11.2414309,
+    "lng": -74.2108091,
+    "totalVentas": 161,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 56
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 79
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 26
+      }
+    ]
+  },
+  {
+    "tiendaId": 17,
+    "nombre": "Calzado Bucaramanga Santa Marta",
+    "RUT": "891979360-8",
+    "owner": "Daniel Henríquez Bolaño",
+    "lat": 11.2421749,
+    "lng": -74.210994,
+    "totalVentas": 96,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 30
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 50
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 16
+      }
+    ]
+  },
+  {
+    "tiendaId": 18,
+    "nombre": "Calzado Status",
+    "RUT": "1003818590-4",
+    "owner": "Hernán Hadad Mendoza",
+    "lat": 11.2454173,
+    "lng": -74.2081133,
+    "totalVentas": 110,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 39
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 54
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 17
+      }
+    ]
+  },
+  {
+    "tiendaId": 19,
+    "nombre": "Surti Chanclas La 5ta",
+    "RUT": "974197967-0",
+    "owner": "Mónica Daza Cabarcas",
+    "lat": 11.24111,
+    "lng": -74.2109761,
+    "totalVentas": 292,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 107
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 135
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 50
+      }
+    ]
+  },
+  {
+    "tiendaId": 20,
+    "nombre": "Calza Bucaramanga",
+    "RUT": "1015473707-4",
+    "owner": "Iván Martínez Camargo",
+    "lat": 11.2445096,
+    "lng": -74.2105304,
+    "totalVentas": 236,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 78
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 117
       },
       {
         "fecha": "2026-04-26",
@@ -23,113 +460,274 @@
     ]
   },
   {
-    "tiendaId": 2,
-    "nombre": "Sensación",
-    "RUT": "830127895-2",
-    "owner": "Carlos Andrés Martínez Vega",
-    "lat": 11.242031,
-    "lng": -74.2109427,
-    "totalVentas": 395,
+    "tiendaId": 21,
+    "nombre": "Payless",
+    "RUT": "1185527289-5",
+    "owner": "Daniel Pacheco Gómez",
+    "lat": 11.2422935,
+    "lng": -74.2106841,
+    "totalVentas": 173,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 119
+        "numeroVentas": 59
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 201
+        "numeroVentas": 86
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 75
+        "numeroVentas": 28
       }
     ]
   },
   {
-    "tiendaId": 3,
-    "nombre": "Tienda VO5 Santa Marta",
-    "RUT": "900789456-1",
-    "owner": "Fernando Castro Mendoza",
-    "lat": 11.24405,
-    "lng": -74.2101316,
-    "totalVentas": 131,
+    "tiendaId": 22,
+    "nombre": "Calzado Marina",
+    "RUT": "1012503258-7",
+    "owner": "Diego Bolaño Romero",
+    "lat": 11.2443843,
+    "lng": -74.2103314,
+    "totalVentas": 94,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 50
+        "numeroVentas": 30
       },
       {
         "fecha": "2026-04-25",
+        "numeroVentas": 48
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 16
+      }
+    ]
+  },
+  {
+    "tiendaId": 23,
+    "nombre": "Calzado Gamiton",
+    "RUT": "932507135-8",
+    "owner": "José Goenaga Barrios",
+    "lat": 11.2405698,
+    "lng": -74.2109252,
+    "totalVentas": 69,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 23
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 33
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 13
+      }
+    ]
+  },
+  {
+    "tiendaId": 24,
+    "nombre": "Droguería La Botica",
+    "RUT": "1113947215-6",
+    "owner": "Esperanza Goenaga Ortega",
+    "lat": 11.2410783,
+    "lng": -74.2140437,
+    "totalVentas": 1051,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 361
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 370
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 320
+      }
+    ]
+  },
+  {
+    "tiendaId": 25,
+    "nombre": "Droguerías Universal (Cl 22)",
+    "RUT": "917846935-2",
+    "owner": "Claudia Linero Robles",
+    "lat": 11.2407115,
+    "lng": -74.2120903,
+    "totalVentas": 738,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 261
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 282
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 195
+      }
+    ]
+  },
+  {
+    "tiendaId": 26,
+    "nombre": "Droguerías Universal (Cra 2b)",
+    "RUT": "825395410-1",
+    "owner": "Yolanda Romero Castro",
+    "lat": 11.244573,
+    "lng": -74.2126421,
+    "totalVentas": 848,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 291
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 306
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 251
+      }
+    ]
+  },
+  {
+    "tiendaId": 27,
+    "nombre": "Discount Drugs",
+    "RUT": "1165430570-6",
+    "owner": "José Bolaño Hadad",
+    "lat": 11.2417375,
+    "lng": -74.2109246,
+    "totalVentas": 772,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 260
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 312
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 200
+      }
+    ]
+  },
+  {
+    "tiendaId": 28,
+    "nombre": "Droguerías Universal (Cra 5)",
+    "RUT": "1004980292-9",
+    "owner": "Sandra Castro Linero",
+    "lat": 11.2373598,
+    "lng": -74.2104381,
+    "totalVentas": 1179,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 398
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 461
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 320
+      }
+    ]
+  },
+  {
+    "tiendaId": 29,
+    "nombre": "Droguería Andina MARKET",
+    "RUT": "1097110891-0",
+    "owner": "Carolina Suárez Goenaga",
+    "lat": 11.2426748,
+    "lng": -74.2106067,
+    "totalVentas": 1361,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 484
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 508
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 369
+      }
+    ]
+  },
+  {
+    "tiendaId": 30,
+    "nombre": "Droguería La Economía",
+    "RUT": "943350681-5",
+    "owner": "Miguel Cabarcas Pérez",
+    "lat": 11.2447987,
+    "lng": -74.2113977,
+    "totalVentas": 1158,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 413
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 386
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 359
+      }
+    ]
+  },
+  {
+    "tiendaId": 31,
+    "nombre": "La Rebaja No. 4 Droguería",
+    "RUT": "885010297-7",
+    "owner": "Miguel Quintero Vargas",
+    "lat": 11.2405601,
+    "lng": -74.2111617,
+    "totalVentas": 1352,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 497
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 465
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 390
+      }
+    ]
+  },
+  {
+    "tiendaId": 32,
+    "nombre": "Santa Marta Tauro Ibis",
+    "RUT": "941505916-8",
+    "owner": "Carlos Ortega Ortega",
+    "lat": 11.2439519,
+    "lng": -74.2115288,
+    "totalVentas": 159,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
         "numeroVentas": 57
       },
       {
-        "fecha": "2026-04-26",
-        "numeroVentas": 24
-      }
-    ]
-  },
-  {
-    "tiendaId": 4,
-    "nombre": "Surtidora de Confecciones",
-    "RUT": "800145672-9",
-    "owner": "María Elena Ospina Suárez",
-    "lat": 11.2421702,
-    "lng": -74.2106971,
-    "totalVentas": 573,
-    "ventasPorFecha": [
-      {
-        "fecha": "2026-04-24",
-        "numeroVentas": 180
-      },
-      {
         "fecha": "2026-04-25",
-        "numeroVentas": 278
-      },
-      {
-        "fecha": "2026-04-26",
-        "numeroVentas": 115
-      }
-    ]
-  },
-  {
-    "tiendaId": 5,
-    "nombre": "Centro Adornos La 5ta",
-    "RUT": "901234567-3",
-    "owner": "Ana Cecilia Barrios Romero",
-    "lat": 11.246261,
-    "lng": -74.2096691,
-    "totalVentas": 264,
-    "ventasPorFecha": [
-      {
-        "fecha": "2026-04-24",
-        "numeroVentas": 98
-      },
-      {
-        "fecha": "2026-04-25",
-        "numeroVentas": 130
-      },
-      {
-        "fecha": "2026-04-26",
-        "numeroVentas": 36
-      }
-    ]
-  },
-  {
-    "tiendaId": 6,
-    "nombre": "Turks Holy Land",
-    "RUT": "830567891-5",
-    "owner": "Jorge Luis Hadad Mendoza",
-    "lat": 11.244129,
-    "lng": -74.2101725,
-    "totalVentas": 100,
-    "ventasPorFecha": [
-      {
-        "fecha": "2026-04-24",
-        "numeroVentas": 35
-      },
-      {
-        "fecha": "2026-04-25",
-        "numeroVentas": 46
+        "numeroVentas": 83
       },
       {
         "fecha": "2026-04-26",
@@ -138,128 +736,197 @@
     ]
   },
   {
-    "tiendaId": 7,
-    "nombre": "Mi Pequeño Ángel - Tienda Infantil",
-    "RUT": "1082945671-8",
-    "owner": "Astrid Carolina Pacheco Linero",
-    "lat": 11.2405548,
-    "lng": -74.2111844,
-    "totalVentas": 80,
+    "tiendaId": 33,
+    "nombre": "Papelería Tayrona",
+    "RUT": "1135805485-4",
+    "owner": "Ricardo Suárez Ospina",
+    "lat": 11.2430226,
+    "lng": -74.2099307,
+    "totalVentas": 207,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 30
+        "numeroVentas": 79
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 34
+        "numeroVentas": 99
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 16
+        "numeroVentas": 29
       }
     ]
   },
   {
-    "tiendaId": 8,
-    "nombre": "Ideas Santa Marta",
-    "RUT": "900876543-2",
-    "owner": "Patricia Eugenia Daza Ortiz",
-    "lat": 11.2396822,
-    "lng": -74.2116394,
-    "totalVentas": 150,
+    "tiendaId": 34,
+    "nombre": "Bookstore and Stationery Milros",
+    "RUT": "882154959-5",
+    "owner": "Yolanda Henríquez Pacheco",
+    "lat": 11.2434152,
+    "lng": -74.2087133,
+    "totalVentas": 205,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
+        "numeroVentas": 78
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 102
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 25
+      }
+    ]
+  },
+  {
+    "tiendaId": 35,
+    "nombre": "Papelería Continental",
+    "RUT": "1084831459-0",
+    "owner": "Camilo Pérez Salcedo",
+    "lat": 11.2447124,
+    "lng": -74.2111112,
+    "totalVentas": 262,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 109
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 120
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 33
+      }
+    ]
+  },
+  {
+    "tiendaId": 36,
+    "nombre": "Papelería Misi",
+    "RUT": "810556496-1",
+    "owner": "Sandra Camargo Romero",
+    "lat": 11.2443686,
+    "lng": -74.2092515,
+    "totalVentas": 526,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 218
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 245
+      },
+      {
+        "fecha": "2026-04-26",
         "numeroVentas": 63
-      },
-      {
-        "fecha": "2026-04-25",
-        "numeroVentas": 71
-      },
-      {
-        "fecha": "2026-04-26",
-        "numeroVentas": 16
       }
     ]
   },
   {
-    "tiendaId": 9,
-    "nombre": "Atlantis Shopping Center",
-    "RUT": "830445789-6",
-    "owner": "Roberto Antonio Goenaga Cabarcas",
-    "lat": 11.2388884,
-    "lng": -74.2110781,
-    "totalVentas": 1644,
+    "tiendaId": 37,
+    "nombre": "Cacharrería y Papelería Claudia",
+    "RUT": "831198339-3",
+    "owner": "Patricia Quintero Daza",
+    "lat": 11.2439953,
+    "lng": -74.2066541,
+    "totalVentas": 179,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 625
+        "numeroVentas": 69
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 706
+        "numeroVentas": 89
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 313
+        "numeroVentas": 21
       }
     ]
   },
   {
-    "tiendaId": 10,
-    "nombre": "Fifth Avenue Mall",
-    "RUT": "900321654-7",
-    "owner": "Centro Comercial 5ta Avenida S.A.S.",
-    "lat": 11.236845,
-    "lng": -74.2101059,
-    "totalVentas": 1031,
+    "tiendaId": 38,
+    "nombre": "Papelería Central",
+    "RUT": "1193039897-7",
+    "owner": "Beatriz Castro Castro",
+    "lat": 11.2439245,
+    "lng": -74.2103122,
+    "totalVentas": 411,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 298
+        "numeroVentas": 169
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 506
+        "numeroVentas": 196
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 227
+        "numeroVentas": 46
       }
     ]
   },
   {
-    "tiendaId": 11,
-    "nombre": "AMKTDigital",
-    "RUT": "1082567432-0",
-    "owner": "Andrea Marcela Quintero Tovar",
-    "lat": 11.2379615,
-    "lng": -74.2105897,
-    "totalVentas": 22,
+    "tiendaId": 39,
+    "nombre": "Joyería La Fortaleza",
+    "RUT": "867617162-2",
+    "owner": "Daniel Salcedo Pérez",
+    "lat": 11.2460454,
+    "lng": -74.2103444,
+    "totalVentas": 130,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 13
+        "numeroVentas": 46
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 7
+        "numeroVentas": 64
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 2
+        "numeroVentas": 20
       }
     ]
   },
   {
-    "tiendaId": 12,
-    "nombre": "De Compras",
-    "RUT": "1129543210-4",
-    "owner": "Liliana Patricia Camargo Ríos",
-    "lat": 11.241339,
-    "lng": -74.2102113,
-    "totalVentas": 55,
+    "tiendaId": 40,
+    "nombre": "Joyería y Relojería Citizen",
+    "RUT": "942401192-8",
+    "owner": "Martha Pérez Hadad",
+    "lat": 11.2456763,
+    "lng": -74.210148,
+    "totalVentas": 135,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 50
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 66
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 19
+      }
+    ]
+  },
+  {
+    "tiendaId": 41,
+    "nombre": "Willy Jhons Santa Marta",
+    "RUT": "1089632383-3",
+    "owner": "Sandra Vargas Pacheco",
+    "lat": 11.2428085,
+    "lng": -74.2105888,
+    "totalVentas": 54,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
@@ -267,80 +934,862 @@
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 25
+        "numeroVentas": 26
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 10
+        "numeroVentas": 8
       }
     ]
   },
   {
-    "tiendaId": 13,
-    "nombre": "CO-43 Coworking Ejecutivo",
-    "RUT": "901567892-3",
-    "owner": "Daniel Esteban Robles Pinto",
-    "lat": 11.238999,
-    "lng": -74.209543,
-    "totalVentas": 81,
+    "tiendaId": 42,
+    "nombre": "Compraventa El Centro",
+    "RUT": "1149000625-5",
+    "owner": "Rafael Linero Cabarcas",
+    "lat": 11.2444049,
+    "lng": -74.2103335,
+    "totalVentas": 105,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
+        "numeroVentas": 37
+      },
+      {
+        "fecha": "2026-04-25",
         "numeroVentas": 52
       },
       {
-        "fecha": "2026-04-25",
-        "numeroVentas": 22
-      },
-      {
         "fecha": "2026-04-26",
-        "numeroVentas": 7
+        "numeroVentas": 16
       }
     ]
   },
   {
-    "tiendaId": 14,
-    "nombre": "Casa Marina Santa Marta",
-    "RUT": "900654987-1",
-    "owner": "Sofía Margarita Linero Bolaño",
-    "lat": 11.2412108,
-    "lng": -74.2155736,
-    "totalVentas": 904,
+    "tiendaId": 43,
+    "nombre": "Taller de Joyería y Relojería Alex",
+    "RUT": "865063634-3",
+    "owner": "Gloria Suárez Mendoza",
+    "lat": 11.2447437,
+    "lng": -74.2111018,
+    "totalVentas": 52,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 276
+        "numeroVentas": 18
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 372
+        "numeroVentas": 26
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 256
+        "numeroVentas": 8
       }
     ]
   },
   {
-    "tiendaId": 15,
-    "nombre": "Centro de Negocio EGO Omnilife",
-    "RUT": "830789012-5",
-    "owner": "Gloria Inés Vargas Henríquez",
-    "lat": 11.2418857,
-    "lng": -74.2098121,
-    "totalVentas": 64,
+    "tiendaId": 44,
+    "nombre": "Joyería Suiza",
+    "RUT": "811392683-9",
+    "owner": "Iván Castro Camargo",
+    "lat": 11.2461238,
+    "lng": -74.2101129,
+    "totalVentas": 38,
     "ventasPorFecha": [
       {
         "fecha": "2026-04-24",
-        "numeroVentas": 36
+        "numeroVentas": 15
       },
       {
         "fecha": "2026-04-25",
-        "numeroVentas": 22
+        "numeroVentas": 18
       },
       {
         "fecha": "2026-04-26",
-        "numeroVentas": 6
+        "numeroVentas": 5
+      }
+    ]
+  },
+  {
+    "tiendaId": 45,
+    "nombre": "Taller Centro Orient",
+    "RUT": "918328310-0",
+    "owner": "Mónica Daza Gómez",
+    "lat": 11.2457328,
+    "lng": -74.2101352,
+    "totalVentas": 86,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 31
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 43
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 12
+      }
+    ]
+  },
+  {
+    "tiendaId": 46,
+    "nombre": "Trigopan",
+    "RUT": "831707612-3",
+    "owner": "Daniel Bermúdez Bolaño",
+    "lat": 11.24052,
+    "lng": -74.2112361,
+    "totalVentas": 1355,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 388
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 543
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 424
+      }
+    ]
+  },
+  {
+    "tiendaId": 47,
+    "nombre": "Oliva Panadería & Pastelería",
+    "RUT": "838141250-8",
+    "owner": "Daniel Martínez Camargo",
+    "lat": 11.2359516,
+    "lng": -74.2133369,
+    "totalVentas": 810,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 241
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 312
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 257
+      }
+    ]
+  },
+  {
+    "tiendaId": 48,
+    "nombre": "Rico Pan Ya",
+    "RUT": "1060704924-3",
+    "owner": "Hernán Goenaga Cabarcas",
+    "lat": 11.2459453,
+    "lng": -74.2083241,
+    "totalVentas": 1213,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 382
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 433
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 398
+      }
+    ]
+  },
+  {
+    "tiendaId": 49,
+    "nombre": "Panadería La Suiza",
+    "RUT": "1106676427-9",
+    "owner": "Esperanza Barrios Ortega",
+    "lat": 11.241034,
+    "lng": -74.2132619,
+    "totalVentas": 1135,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 336
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 430
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 369
+      }
+    ]
+  },
+  {
+    "tiendaId": 50,
+    "nombre": "Panadería y Repostería San Benito",
+    "RUT": "1018638654-3",
+    "owner": "Martha Daza Romero",
+    "lat": 11.2461238,
+    "lng": -74.2101129,
+    "totalVentas": 1134,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 330
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 446
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 358
+      }
+    ]
+  },
+  {
+    "tiendaId": 51,
+    "nombre": "Panadería & Repostería Lucy",
+    "RUT": "1031518842-5",
+    "owner": "Luis Ospina Cabarcas",
+    "lat": 11.2418784,
+    "lng": -74.2088885,
+    "totalVentas": 831,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 268
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 306
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 257
+      }
+    ]
+  },
+  {
+    "tiendaId": 52,
+    "nombre": "Pastelería RICH",
+    "RUT": "1191519619-0",
+    "owner": "Sofía Vargas Mendoza",
+    "lat": 11.231076,
+    "lng": -74.2106746,
+    "totalVentas": 1213,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 385
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 434
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 394
+      }
+    ]
+  },
+  {
+    "tiendaId": 53,
+    "nombre": "Mas que Pan 21",
+    "RUT": "1191056693-5",
+    "owner": "Luis Martínez Linero",
+    "lat": 11.2445655,
+    "lng": -74.2114522,
+    "totalVentas": 1602,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 517
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 606
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 479
+      }
+    ]
+  },
+  {
+    "tiendaId": 54,
+    "nombre": "Gnam Gelato Italiano",
+    "RUT": "902217629-8",
+    "owner": "Luis Daza Pacheco",
+    "lat": 11.2434948,
+    "lng": -74.2127263,
+    "totalVentas": 1159,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 296
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 434
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 429
+      }
+    ]
+  },
+  {
+    "tiendaId": 55,
+    "nombre": "Nevossa",
+    "RUT": "898609390-4",
+    "owner": "Gloria Barrios Vargas",
+    "lat": 11.2421187,
+    "lng": -74.2114515,
+    "totalVentas": 654,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 150
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 264
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 240
+      }
+    ]
+  },
+  {
+    "tiendaId": 56,
+    "nombre": "BurbuWaffles Gelato Shop",
+    "RUT": "1038004006-8",
+    "owner": "Carolina Daza Castro",
+    "lat": 11.2419351,
+    "lng": -74.2129025,
+    "totalVentas": 806,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 187
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 349
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 270
+      }
+    ]
+  },
+  {
+    "tiendaId": 57,
+    "nombre": "Gnam Dolce",
+    "RUT": "1090325936-0",
+    "owner": "Luis Martínez Bolaño",
+    "lat": 11.2434086,
+    "lng": -74.2122602,
+    "totalVentas": 501,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 150
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 182
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 169
+      }
+    ]
+  },
+  {
+    "tiendaId": 58,
+    "nombre": "Vívolo Café",
+    "RUT": "889387596-6",
+    "owner": "Andrés Salcedo Daza",
+    "lat": 11.2412698,
+    "lng": -74.2155895,
+    "totalVentas": 534,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 144
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 201
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 189
+      }
+    ]
+  },
+  {
+    "tiendaId": 59,
+    "nombre": "Ice Cream Rolls - Centro Histórico",
+    "RUT": "1015406864-0",
+    "owner": "Diana Romero Pacheco",
+    "lat": 11.2426052,
+    "lng": -74.212866,
+    "totalVentas": 1258,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 292
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 511
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 455
+      }
+    ]
+  },
+  {
+    "tiendaId": 60,
+    "nombre": "Sublime Gelateria Italia",
+    "RUT": "1009706084-4",
+    "owner": "Camilo Linero Rodríguez",
+    "lat": 11.2439164,
+    "lng": -74.2126749,
+    "totalVentas": 369,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 96
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 147
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 126
+      }
+    ]
+  },
+  {
+    "tiendaId": 61,
+    "nombre": "Delicrem",
+    "RUT": "1174079715-8",
+    "owner": "Carolina Quintero Vargas",
+    "lat": 11.2444553,
+    "lng": -74.2127457,
+    "totalVentas": 751,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 183
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 324
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 244
+      }
+    ]
+  },
+  {
+    "tiendaId": 62,
+    "nombre": "Restaurante Medellín Santa Marta",
+    "RUT": "959393802-3",
+    "owner": "Diana Barrios Pacheco",
+    "lat": 11.2407547,
+    "lng": -74.2134147,
+    "totalVentas": 2088,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 536
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 855
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 697
+      }
+    ]
+  },
+  {
+    "tiendaId": 63,
+    "nombre": "El Gran Cantón",
+    "RUT": "1091188834-0",
+    "owner": "Roberto Gómez Ortega",
+    "lat": 11.2407707,
+    "lng": -74.2134839,
+    "totalVentas": 1235,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 329
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 532
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 374
+      }
+    ]
+  },
+  {
+    "tiendaId": 64,
+    "nombre": "Restaurante Tai Shan",
+    "RUT": "1113727959-7",
+    "owner": "Luz Marina Martínez Martínez",
+    "lat": 11.2405195,
+    "lng": -74.2124965,
+    "totalVentas": 1221,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 310
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 497
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 414
+      }
+    ]
+  },
+  {
+    "tiendaId": 65,
+    "nombre": "Serena Tropical Bistro",
+    "RUT": "830636988-8",
+    "owner": "Yolanda Suárez Hadad",
+    "lat": 11.2408569,
+    "lng": -74.2161603,
+    "totalVentas": 1845,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 502
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 759
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 584
+      }
+    ]
+  },
+  {
+    "tiendaId": 66,
+    "nombre": "Provenza Santa Marta",
+    "RUT": "1119557040-1",
+    "owner": "Andrés Hadad Castro",
+    "lat": 11.2396048,
+    "lng": -74.2088096,
+    "totalVentas": 2009,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 541
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 851
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 617
+      }
+    ]
+  },
+  {
+    "tiendaId": 67,
+    "nombre": "Mil Carnes",
+    "RUT": "1105942159-3",
+    "owner": "Hernán Linero Ospina",
+    "lat": 11.2380556,
+    "lng": -74.2025,
+    "totalVentas": 1027,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 274
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 438
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 315
+      }
+    ]
+  },
+  {
+    "tiendaId": 68,
+    "nombre": "Nuevo Oriental No. 1",
+    "RUT": "1132627916-1",
+    "owner": "Claudia Henríquez Martínez",
+    "lat": 11.240851,
+    "lng": -74.2127625,
+    "totalVentas": 1098,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 297
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 476
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 325
+      }
+    ]
+  },
+  {
+    "tiendaId": 69,
+    "nombre": "Siete Mares Santa Marta",
+    "RUT": "1103553894-8",
+    "owner": "Andrea Cabarcas Gómez",
+    "lat": 11.2420272,
+    "lng": -74.216299,
+    "totalVentas": 823,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 196
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 327
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 300
+      }
+    ]
+  },
+  {
+    "tiendaId": 70,
+    "nombre": "Tranquilandia City",
+    "RUT": "1159656395-5",
+    "owner": "Luz Marina Goenaga Pacheco",
+    "lat": 11.2362336,
+    "lng": -74.1919493,
+    "totalVentas": 1990,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 554
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 754
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 682
+      }
+    ]
+  },
+  {
+    "tiendaId": 71,
+    "nombre": "Colombiana de Perfumes",
+    "RUT": "870364740-4",
+    "owner": "Hernán Goenaga Linero",
+    "lat": 11.2437843,
+    "lng": -74.2103451,
+    "totalVentas": 130,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 43
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 65
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 22
+      }
+    ]
+  },
+  {
+    "tiendaId": 72,
+    "nombre": "Celu-Star",
+    "RUT": "839046288-0",
+    "owner": "Carolina Camargo Salcedo",
+    "lat": 11.2445645,
+    "lng": -74.2104896,
+    "totalVentas": 152,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 60
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 67
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 25
+      }
+    ]
+  },
+  {
+    "tiendaId": 73,
+    "nombre": "Fontalvo Cell",
+    "RUT": "853777026-1",
+    "owner": "Carolina Henríquez Gómez",
+    "lat": 11.2459897,
+    "lng": -74.2082729,
+    "totalVentas": 51,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 23
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 19
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 9
+      }
+    ]
+  },
+  {
+    "tiendaId": 74,
+    "nombre": "Audio Tecnología la 14",
+    "RUT": "942478389-2",
+    "owner": "Esperanza Pacheco Suárez",
+    "lat": 11.2447157,
+    "lng": -74.2104684,
+    "totalVentas": 181,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 83
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 71
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 27
+      }
+    ]
+  },
+  {
+    "tiendaId": 75,
+    "nombre": "Casa iPhone Servicio Técnico",
+    "RUT": "998488346-4",
+    "owner": "Ana Cecilia Castro Daza",
+    "lat": 11.2443853,
+    "lng": -74.2096028,
+    "totalVentas": 104,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 45
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 44
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 15
+      }
+    ]
+  },
+  {
+    "tiendaId": 76,
+    "nombre": "Innovalab",
+    "RUT": "1177810120-4",
+    "owner": "Camilo Mendoza Pérez",
+    "lat": 11.2443853,
+    "lng": -74.2096028,
+    "totalVentas": 105,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 47
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 44
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 14
+      }
+    ]
+  },
+  {
+    "tiendaId": 77,
+    "nombre": "Tecno Saul",
+    "RUT": "804299998-8",
+    "owner": "Adriana Bolaño Suárez",
+    "lat": 11.2450073,
+    "lng": -74.2119818,
+    "totalVentas": 188,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 84
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 75
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 29
+      }
+    ]
+  },
+  {
+    "tiendaId": 78,
+    "nombre": "Saul Technology Center",
+    "RUT": "872196993-4",
+    "owner": "Rafael Cabarcas Ospina",
+    "lat": 11.2450429,
+    "lng": -74.2099368,
+    "totalVentas": 146,
+    "ventasPorFecha": [
+      {
+        "fecha": "2026-04-24",
+        "numeroVentas": 65
+      },
+      {
+        "fecha": "2026-04-25",
+        "numeroVentas": 58
+      },
+      {
+        "fecha": "2026-04-26",
+        "numeroVentas": 23
       }
     ]
   }
