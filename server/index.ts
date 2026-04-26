@@ -2,9 +2,9 @@ import "dotenv/config";
 import express from "express";
 import { streamText, convertToModelMessages } from "ai";
 import { anthropic } from "@ai-sdk/anthropic";
-import { readFileSync } from "fs";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { readFileSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
 /* ------------------------------------------------------------------ */
 /*  Load JSON data once at startup                                     */
@@ -13,14 +13,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const mockData = JSON.parse(
   readFileSync(join(__dirname, "../Data/mock_data.json"), "utf-8")
 );
-
-const DATA_CONTEXT = `\
-You have access to the following store data in JSON format. Use it to answer questions accurately.
-
-<store_data>
-${JSON.stringify(mockData, null, 2)}
-</store_data>
-`;
 
 /* ------------------------------------------------------------------ */
 /*  Express setup                                                      */
@@ -33,10 +25,20 @@ app.use(express.json());
 /* ------------------------------------------------------------------ */
 app.post("/api/chat", async (req, res) => {
   try {
-    const { messages, system, model } = req.body;
+    const { messages, system, model, excelData } = req.body;
+
+    const activeData = Array.isArray(excelData) && excelData.length > 0 ? excelData : mockData;
 
     // Merge the JSON data context with any persona-level system prompt from the frontend
-    const fullSystem = DATA_CONTEXT + (system ? `\n\n${system}` : "");
+    const dataContext = `\
+You have access to the following store data in JSON format. Use it to answer questions accurately.
+
+<store_data>
+${JSON.stringify(activeData, null, 2)}
+</store_data>
+`;
+
+    const fullSystem = dataContext + (system ? `\n\n${system}` : "");
 
     const result = streamText({
       model: anthropic(model ?? "claude-haiku-4-5"),

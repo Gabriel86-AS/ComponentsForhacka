@@ -13,43 +13,49 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { InputExcel } from "@/components/excel/InputExcel";
+import { useExcelStore } from "@/store/excel.store";
 
 /* ------------------------------------------------------------------ */
 /*  Props                                                              */
 /* ------------------------------------------------------------------ */
 export interface ChatbotProps {
   /** API endpoint for the chat backend. Defaults to "/api/chat". */
-  apiEndpoint?: string;
+  readonly apiEndpoint?: string;
   /** Claude model id to use. Defaults to "claude-haiku-4-5". */
-  model?: string;
+  readonly model?: string;
   /** System prompt sent with every request. */
-  system?: string;
+  readonly system?: string;
   /** Placeholder text for the input field. */
-  placeholder?: string;
+  readonly placeholder?: string;
   /** Title displayed in the card header. */
-  title?: string;
+  readonly title?: string;
   /** Additional CSS class names for the root card. */
-  className?: string;
+  readonly className?: string;
   /** Initial messages to seed the conversation. */
-  initialMessages?: UIMessage[];
+  readonly initialMessages?: UIMessage[];
 }
 
 /* ------------------------------------------------------------------ */
 /*  Component                                                          */
 /* ------------------------------------------------------------------ */
-export function Chatbot({
-  apiEndpoint = "/api/chat",
-  model,
-  system,
-  placeholder = "Type a message…",
-  title = "Chat with Claude",
-  className,
-  initialMessages,
-}: ChatbotProps) {
+export function Chatbot(props: Readonly<ChatbotProps>) {
+  const {
+    apiEndpoint = "/api/chat",
+    model,
+    system,
+    placeholder = "Type a message…",
+    title = "Chat with Claude",
+    className,
+    initialMessages,
+  } = props;
   /* ---- local input state (v5 useChat no longer manages input) ---- */
   const [input, setInput] = useState("");
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const clearExcelData = useExcelStore((state) => state.clearExcelData);
+  const hasFile = useExcelStore((state) => state.hasFile);
+  const excelData = useExcelStore((state) => state.data);
 
   /* ---- useChat (AI SDK v5 / @ai-sdk/react v2) ---- */
   const { messages, sendMessage, status, error, stop, regenerate } = useChat({
@@ -58,6 +64,11 @@ export function Chatbot({
       body: { model, system },
     }),
     messages: initialMessages,
+    onFinish: ({ isAbort, isError }) => {
+      if (!isAbort && !isError) {
+        clearExcelData();
+      }
+    },
   });
 
   const isLoading = status === "submitted" || status === "streaming";
@@ -75,7 +86,7 @@ export function Chatbot({
     const ta = textareaRef.current;
     if (ta) {
       ta.style.height = "auto";
-      ta.style.height = `${Math.min(ta.scrollHeight, 120)}px`;
+      ta.style.height = `${Math.min(ta.scrollHeight, 88)}px`;
     }
   }, [input]);
 
@@ -83,13 +94,16 @@ export function Chatbot({
   const handleSubmit = useCallback(() => {
     const trimmed = input.trim();
     if (!trimmed || isLoading) return;
-    sendMessage({ text: trimmed });
+    sendMessage(
+      { text: trimmed },
+      hasFile ? { body: { model, system, excelData } } : { body: { model, system } }
+    );
     setInput("");
     // Reset textarea height
     if (textareaRef.current) {
       textareaRef.current.style.height = "auto";
     }
-  }, [input, isLoading, sendMessage]);
+  }, [excelData, hasFile, input, isLoading, model, sendMessage, system]);
 
   /* ---- keyboard (Enter to send, Shift+Enter for newline) ---- */
   const handleKeyDown = useCallback(
@@ -106,18 +120,16 @@ export function Chatbot({
   const renderMessageContent = (message: UIMessage) => {
     // Walk message.parts (AI SDK v5 message-parts model)
     if (message.parts && message.parts.length > 0) {
-      return message.parts.map((part, i) => {
-        if (part.type === "text") {
-          return (
-            <div key={i} className="prose dark:prose-invert prose-p:leading-relaxed prose-pre:p-0 max-w-none prose-sm break-words">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                {part.text}
-              </ReactMarkdown>
-            </div>
-          );
-        }
-        return null;
-      });
+      return message.parts
+        .filter((part) => part.type === "text")
+        .map((part) => (
+          <div
+            key={`${message.id}-${part.type}`}
+            className="prose prose-sm max-w-none break-words dark:prose-invert prose-headings:mb-2 prose-p:my-2 prose-ul:my-2 prose-ol:my-2 prose-li:my-0 prose-strong:font-semibold prose-pre:rounded-lg prose-pre:bg-background prose-pre:p-3"
+          >
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{part.text}</ReactMarkdown>
+          </div>
+        ));
     }
     return null;
   };
@@ -153,9 +165,9 @@ export function Chatbot({
               <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-500/10 to-emerald-600/10 flex items-center justify-center">
                 <MessageSquare className="w-7 h-7 text-green-500" />
               </div>
-              <p className="text-sm font-medium">Start a conversation</p>
+              <p className="text-sm font-medium">Inicia una conversacion</p>
               <p className="text-xs text-center max-w-[240px]">
-                Send a message below to begin chatting with the AI assistant.
+                Envia un mensaje para iniciar una conversacion con el agente de IA.
               </p>
             </div>
           )}
@@ -239,6 +251,10 @@ export function Chatbot({
       {/* ---- Footer / Input ---- */}
       <CardFooter className="border-t border-border/50 p-3 flex-shrink-0">
         <div className="flex w-full items-end gap-2">
+          <div className="flex-shrink-0">
+            <InputExcel />
+          </div>
+
           <textarea
             ref={textareaRef}
             value={input}
@@ -247,7 +263,7 @@ export function Chatbot({
             placeholder={placeholder}
             disabled={isLoading && status !== "streaming"}
             rows={1}
-            className="flex-1 resize-none rounded-lg border border-input bg-background px-3 py-2.5 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 max-h-[120px] scrollbar-thin"
+            className="flex-1 resize-none rounded-lg border border-input bg-background px-3 py-1.5 text-sm leading-5 ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 min-h-[40px] max-h-[88px] scrollbar-thin"
             id="chatbot-input"
           />
 
