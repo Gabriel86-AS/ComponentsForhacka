@@ -20,7 +20,7 @@ function App() {
       {/* Chatbot + Heatmap */}
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-6 w-full max-w-[1400px]">
         <Chatbot
-          title="Asistente Mercado El Roble"
+          title="5ALES"
           system={systemPrompt}
           placeholder="¿Cual producto se vendio más?"
         />
