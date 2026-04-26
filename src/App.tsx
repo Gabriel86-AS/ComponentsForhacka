@@ -22,11 +22,10 @@ function App() {
         <Chatbot
           title="Asistente Mercado El Roble"
           system={systemPrompt}
-          placeholder="Ej: ¿Cuál fue el producto más vendido en enero?"
+          placeholder="¿Cual producto se vendio más?"
         />
         <Map />
       </div>
-
       {/* Footer */}
       <p className="text-xs text-muted-foreground/60 animate-fade-in">
         Built with React • Vite • shadcn/ui • Vercel AI SDK • deck.gl
