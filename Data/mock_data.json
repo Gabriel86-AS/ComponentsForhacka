@@ -5,167 +5,1364 @@
     "RUT": "900.456.789-2",
     "owner": "Camila Restrepo Holguín",
     "productos": [
-      { "productoId": 101, "nombre": "Café molido Sierra Nevada 500g", "precio": 28500 },
-      { "productoId": 102, "nombre": "Panela cuadrada x 1kg", "precio": 6800 },
-      { "productoId": 103, "nombre": "Arroz Diana 5kg", "precio": 24900 },
-      { "productoId": 104, "nombre": "Aceite Girasol 1L", "precio": 14200 },
-      { "productoId": 105, "nombre": "Frijol cargamanto 500g", "precio": 9500 },
-      { "productoId": 106, "nombre": "Lentejas 500g", "precio": 7200 },
-      { "productoId": 107, "nombre": "Arepa de maíz blanco x10", "precio": 8900 },
-      { "productoId": 108, "nombre": "Queso costeño 250g", "precio": 11500 },
-      { "productoId": 109, "nombre": "Chocolate Corona 500g", "precio": 13400 },
-      { "productoId": 110, "nombre": "Leche entera 1L", "precio": 4800 },
-      { "productoId": 111, "nombre": "Huevos AA x30", "precio": 18900 },
-      { "productoId": 112, "nombre": "Pan tajado integral", "precio": 7600 },
-      { "productoId": 113, "nombre": "Bocadillo veleño x6", "precio": 5400 },
-      { "productoId": 114, "nombre": "Avena en hojuelas 500g", "precio": 8100 },
-      { "productoId": 115, "nombre": "Atún en aceite 170g", "precio": 6900 },
-      { "productoId": 116, "nombre": "Pasta espagueti 500g", "precio": 4500 },
-      { "productoId": 117, "nombre": "Salsa de tomate 400g", "precio": 7800 },
-      { "productoId": 118, "nombre": "Mayonesa 380g", "precio": 9200 },
-      { "productoId": 119, "nombre": "Jabón de baño Protex", "precio": 4200 },
-      { "productoId": 120, "nombre": "Detergente líquido 1L", "precio": 16500 },
-      { "productoId": 121, "nombre": "Papel higiénico x12", "precio": 22400 },
-      { "productoId": 122, "nombre": "Shampoo Sedal 400ml", "precio": 18700 },
-      { "productoId": 123, "nombre": "Crema dental Colgate", "precio": 6500 },
-      { "productoId": 124, "nombre": "Coca-Cola 1.5L", "precio": 5900 },
-      { "productoId": 125, "nombre": "Agua Cristal 600ml", "precio": 2500 }
+      {
+        "productoId": 101,
+        "nombre": "Café molido Sierra Nevada 500g",
+        "categoria": "Bebidas calientes",
+        "precio": 28500
+      },
+      {
+        "productoId": 102,
+        "nombre": "Panela cuadrada x 1kg",
+        "categoria": "Endulzantes",
+        "precio": 6800
+      },
+      {
+        "productoId": 103,
+        "nombre": "Arroz Diana 5kg",
+        "categoria": "Granos y cereales",
+        "precio": 24900
+      },
+      {
+        "productoId": 104,
+        "nombre": "Aceite Girasol 1L",
+        "categoria": "Aceites",
+        "precio": 14200
+      },
+      {
+        "productoId": 105,
+        "nombre": "Frijol cargamanto 500g",
+        "categoria": "Granos y cereales",
+        "precio": 9500
+      },
+      {
+        "productoId": 106,
+        "nombre": "Lentejas 500g",
+        "categoria": "Granos y cereales",
+        "precio": 7200
+      },
+      {
+        "productoId": 107,
+        "nombre": "Arepa de maíz blanco x10",
+        "categoria": "Panadería",
+        "precio": 8900
+      },
+      {
+        "productoId": 108,
+        "nombre": "Queso costeño 250g",
+        "categoria": "Lácteos",
+        "precio": 11500
+      },
+      {
+        "productoId": 109,
+        "nombre": "Chocolate Corona 500g",
+        "categoria": "Bebidas calientes",
+        "precio": 13400
+      },
+      {
+        "productoId": 110,
+        "nombre": "Leche entera 1L",
+        "categoria": "Lácteos",
+        "precio": 4800
+      },
+      {
+        "productoId": 111,
+        "nombre": "Huevos AA x30",
+        "categoria": "Huevos",
+        "precio": 18900
+      },
+      {
+        "productoId": 112,
+        "nombre": "Pan tajado integral",
+        "categoria": "Panadería",
+        "precio": 7600
+      },
+      {
+        "productoId": 113,
+        "nombre": "Bocadillo veleño x6",
+        "categoria": "Dulces",
+        "precio": 5400
+      },
+      {
+        "productoId": 114,
+        "nombre": "Avena en hojuelas 500g",
+        "categoria": "Granos y cereales",
+        "precio": 8100
+      },
+      {
+        "productoId": 115,
+        "nombre": "Atún en aceite 170g",
+        "categoria": "Enlatados",
+        "precio": 6900
+      },
+      {
+        "productoId": 116,
+        "nombre": "Pasta espagueti 500g",
+        "categoria": "Pastas",
+        "precio": 4500
+      },
+      {
+        "productoId": 117,
+        "nombre": "Salsa de tomate 400g",
+        "categoria": "Salsas",
+        "precio": 7800
+      },
+      {
+        "productoId": 118,
+        "nombre": "Mayonesa 380g",
+        "categoria": "Salsas",
+        "precio": 9200
+      },
+      {
+        "productoId": 119,
+        "nombre": "Jabón de baño Protex",
+        "categoria": "Aseo personal",
+        "precio": 4200
+      },
+      {
+        "productoId": 120,
+        "nombre": "Detergente líquido 1L",
+        "categoria": "Aseo del hogar",
+        "precio": 16500
+      },
+      {
+        "productoId": 121,
+        "nombre": "Papel higiénico x12",
+        "categoria": "Aseo del hogar",
+        "precio": 22400
+      },
+      {
+        "productoId": 122,
+        "nombre": "Shampoo Sedal 400ml",
+        "categoria": "Aseo personal",
+        "precio": 18700
+      },
+      {
+        "productoId": 123,
+        "nombre": "Crema dental Colgate",
+        "categoria": "Aseo personal",
+        "precio": 6500
+      },
+      {
+        "productoId": 124,
+        "nombre": "Coca-Cola 1.5L",
+        "categoria": "Bebidas frías",
+        "precio": 5900
+      },
+      {
+        "productoId": 125,
+        "nombre": "Agua Cristal 600ml",
+        "categoria": "Bebidas frías",
+        "precio": 2500
+      }
     ]
   },
   "ventasPorProducto": [
-    { "fecha": "2026-01-08", "producto": 101, "cantidad": 2, "nombreCliente": "Andrés Felipe Vargas", "edadCliente": 34, "precioTotal": 57000 },
-    { "fecha": "2026-01-08", "producto": 110, "cantidad": 3, "nombreCliente": "Andrés Felipe Vargas", "edadCliente": 34, "precioTotal": 14400 },
-    { "fecha": "2026-01-09", "producto": 103, "cantidad": 1, "nombreCliente": "Lucía Mendoza Pérez", "edadCliente": 52, "precioTotal": 24900 },
-    { "fecha": "2026-01-09", "producto": 105, "cantidad": 2, "nombreCliente": "Lucía Mendoza Pérez", "edadCliente": 52, "precioTotal": 19000 },
-    { "fecha": "2026-01-10", "producto": 124, "cantidad": 4, "nombreCliente": "Jhon Jairo Ospina", "edadCliente": 27, "precioTotal": 23600 },
-    { "fecha": "2026-01-11", "producto": 107, "cantidad": 2, "nombreCliente": "María José Cárdenas", "edadCliente": 41, "precioTotal": 17800 },
-    { "fecha": "2026-01-11", "producto": 108, "cantidad": 1, "nombreCliente": "María José Cárdenas", "edadCliente": 41, "precioTotal": 11500 },
-    { "fecha": "2026-01-12", "producto": 121, "cantidad": 1, "nombreCliente": "Roberto Silva Quintero", "edadCliente": 63, "precioTotal": 22400 },
-    { "fecha": "2026-01-13", "producto": 111, "cantidad": 2, "nombreCliente": "Diana Carolina Rojas", "edadCliente": 29, "precioTotal": 37800 },
-    { "fecha": "2026-01-13", "producto": 112, "cantidad": 1, "nombreCliente": "Diana Carolina Rojas", "edadCliente": 29, "precioTotal": 7600 },
-    { "fecha": "2026-01-14", "producto": 102, "cantidad": 3, "nombreCliente": "Esteban Gutiérrez Lara", "edadCliente": 45, "precioTotal": 20400 },
-    { "fecha": "2026-01-15", "producto": 116, "cantidad": 5, "nombreCliente": "Paola Andrea Suárez", "edadCliente": 38, "precioTotal": 22500 },
-    { "fecha": "2026-01-15", "producto": 117, "cantidad": 2, "nombreCliente": "Paola Andrea Suárez", "edadCliente": 38, "precioTotal": 15600 },
-    { "fecha": "2026-01-16", "producto": 109, "cantidad": 1, "nombreCliente": "Gabriel Antonio Ramírez", "edadCliente": 19, "precioTotal": 13400 },
-    { "fecha": "2026-01-17", "producto": 125, "cantidad": 6, "nombreCliente": "Sofía Valentina Toro", "edadCliente": 22, "precioTotal": 15000 },
-    { "fecha": "2026-01-18", "producto": 120, "cantidad": 1, "nombreCliente": "Carlos Mario Henao", "edadCliente": 56, "precioTotal": 16500 },
-    { "fecha": "2026-01-18", "producto": 119, "cantidad": 4, "nombreCliente": "Carlos Mario Henao", "edadCliente": 56, "precioTotal": 16800 },
-    { "fecha": "2026-01-19", "producto": 104, "cantidad": 2, "nombreCliente": "Natalia Ocampo Builes", "edadCliente": 33, "precioTotal": 28400 },
-    { "fecha": "2026-01-20", "producto": 115, "cantidad": 6, "nombreCliente": "Iván Darío Castaño", "edadCliente": 47, "precioTotal": 41400 },
-    { "fecha": "2026-01-21", "producto": 113, "cantidad": 2, "nombreCliente": "Laura Camila Bedoya", "edadCliente": 24, "precioTotal": 10800 },
-    { "fecha": "2026-01-22", "producto": 106, "cantidad": 1, "nombreCliente": "Hernán Patiño Zuluaga", "edadCliente": 68, "precioTotal": 7200 },
-    { "fecha": "2026-01-22", "producto": 105, "cantidad": 1, "nombreCliente": "Hernán Patiño Zuluaga", "edadCliente": 68, "precioTotal": 9500 },
-    { "fecha": "2026-01-23", "producto": 122, "cantidad": 1, "nombreCliente": "Verónica Aguilar Mesa", "edadCliente": 31, "precioTotal": 18700 },
-    { "fecha": "2026-01-23", "producto": 123, "cantidad": 2, "nombreCliente": "Verónica Aguilar Mesa", "edadCliente": 31, "precioTotal": 13000 },
-    { "fecha": "2026-01-24", "producto": 101, "cantidad": 1, "nombreCliente": "Mateo Sebastián Arboleda", "edadCliente": 36, "precioTotal": 28500 },
-    { "fecha": "2026-01-25", "producto": 124, "cantidad": 2, "nombreCliente": "Isabel Cristina Madrid", "edadCliente": 44, "precioTotal": 11800 },
-    { "fecha": "2026-01-25", "producto": 118, "cantidad": 1, "nombreCliente": "Isabel Cristina Madrid", "edadCliente": 44, "precioTotal": 9200 },
-    { "fecha": "2026-01-26", "producto": 114, "cantidad": 3, "nombreCliente": "Óscar Eduardo Pineda", "edadCliente": 50, "precioTotal": 24300 },
-    { "fecha": "2026-01-27", "producto": 110, "cantidad": 5, "nombreCliente": "Daniela Estrada Vélez", "edadCliente": 26, "precioTotal": 24000 },
-    { "fecha": "2026-01-28", "producto": 111, "cantidad": 1, "nombreCliente": "Felipe Andrés Marín", "edadCliente": 39, "precioTotal": 18900 },
-    { "fecha": "2026-01-29", "producto": 107, "cantidad": 3, "nombreCliente": "Beatriz Elena Cano", "edadCliente": 59, "precioTotal": 26700 },
-    { "fecha": "2026-01-30", "producto": 103, "cantidad": 2, "nombreCliente": "Juan Pablo Gómez", "edadCliente": 32, "precioTotal": 49800 },
-    { "fecha": "2026-01-30", "producto": 104, "cantidad": 1, "nombreCliente": "Juan Pablo Gómez", "edadCliente": 32, "precioTotal": 14200 },
-    { "fecha": "2026-01-31", "producto": 121, "cantidad": 2, "nombreCliente": "Ana Lucía Tobón", "edadCliente": 48, "precioTotal": 44800 },
-    { "fecha": "2026-02-01", "producto": 125, "cantidad": 12, "nombreCliente": "Santiago Alejandro Ríos", "edadCliente": 21, "precioTotal": 30000 },
-    { "fecha": "2026-02-02", "producto": 116, "cantidad": 3, "nombreCliente": "Claudia Patricia Londoño", "edadCliente": 42, "precioTotal": 13500 },
-    { "fecha": "2026-02-02", "producto": 117, "cantidad": 1, "nombreCliente": "Claudia Patricia Londoño", "edadCliente": 42, "precioTotal": 7800 },
-    { "fecha": "2026-02-03", "producto": 109, "cantidad": 2, "nombreCliente": "Ricardo Montoya Salazar", "edadCliente": 55, "precioTotal": 26800 },
-    { "fecha": "2026-02-04", "producto": 102, "cantidad": 5, "nombreCliente": "Marcela Hernández Pulgarín", "edadCliente": 37, "precioTotal": 34000 },
-    { "fecha": "2026-02-05", "producto": 108, "cantidad": 2, "nombreCliente": "Tomás Alberto Jiménez", "edadCliente": 28, "precioTotal": 23000 },
-    { "fecha": "2026-02-06", "producto": 119, "cantidad": 6, "nombreCliente": "Adriana Lucía Cifuentes", "edadCliente": 51, "precioTotal": 25200 },
-    { "fecha": "2026-02-07", "producto": 113, "cantidad": 4, "nombreCliente": "Esteban Gutiérrez Lara", "edadCliente": 45, "precioTotal": 21600 },
-    { "fecha": "2026-02-08", "producto": 124, "cantidad": 3, "nombreCliente": "Karen Yulieth Bermúdez", "edadCliente": 23, "precioTotal": 17700 },
-    { "fecha": "2026-02-09", "producto": 115, "cantidad": 4, "nombreCliente": "Mauricio Bernal Cifuentes", "edadCliente": 40, "precioTotal": 27600 },
-    { "fecha": "2026-02-10", "producto": 101, "cantidad": 1, "nombreCliente": "Andrés Felipe Vargas", "edadCliente": 34, "precioTotal": 28500 },
-    { "fecha": "2026-02-10", "producto": 110, "cantidad": 2, "nombreCliente": "Andrés Felipe Vargas", "edadCliente": 34, "precioTotal": 9600 },
-    { "fecha": "2026-02-11", "producto": 122, "cantidad": 1, "nombreCliente": "Julieta Restrepo Cano", "edadCliente": 30, "precioTotal": 18700 },
-    { "fecha": "2026-02-12", "producto": 105, "cantidad": 3, "nombreCliente": "Lucía Mendoza Pérez", "edadCliente": 52, "precioTotal": 28500 },
-    { "fecha": "2026-02-13", "producto": 120, "cantidad": 2, "nombreCliente": "Pedro Nel Quiroz", "edadCliente": 61, "precioTotal": 33000 },
-    { "fecha": "2026-02-14", "producto": 111, "cantidad": 3, "nombreCliente": "Valentina Salazar Mejía", "edadCliente": 25, "precioTotal": 56700 },
-    { "fecha": "2026-02-14", "producto": 112, "cantidad": 2, "nombreCliente": "Valentina Salazar Mejía", "edadCliente": 25, "precioTotal": 15200 },
-    { "fecha": "2026-02-14", "producto": 109, "cantidad": 1, "nombreCliente": "Valentina Salazar Mejía", "edadCliente": 25, "precioTotal": 13400 },
-    { "fecha": "2026-02-15", "producto": 107, "cantidad": 1, "nombreCliente": "Gabriel Antonio Ramírez", "edadCliente": 19, "precioTotal": 8900 },
-    { "fecha": "2026-02-16", "producto": 103, "cantidad": 1, "nombreCliente": "Diego Armando Castro", "edadCliente": 43, "precioTotal": 24900 },
-    { "fecha": "2026-02-17", "producto": 121, "cantidad": 1, "nombreCliente": "Liliana Mesa Ortiz", "edadCliente": 49, "precioTotal": 22400 },
-    { "fecha": "2026-02-17", "producto": 123, "cantidad": 3, "nombreCliente": "Liliana Mesa Ortiz", "edadCliente": 49, "precioTotal": 19500 },
-    { "fecha": "2026-02-18", "producto": 114, "cantidad": 2, "nombreCliente": "Jorge Iván Acevedo", "edadCliente": 57, "precioTotal": 16200 },
-    { "fecha": "2026-02-19", "producto": 125, "cantidad": 8, "nombreCliente": "Sofía Valentina Toro", "edadCliente": 22, "precioTotal": 20000 },
-    { "fecha": "2026-02-20", "producto": 102, "cantidad": 2, "nombreCliente": "Hernán Patiño Zuluaga", "edadCliente": 68, "precioTotal": 13600 },
-    { "fecha": "2026-02-21", "producto": 116, "cantidad": 2, "nombreCliente": "Manuela Ospina Trujillo", "edadCliente": 35, "precioTotal": 9000 },
-    { "fecha": "2026-02-21", "producto": 118, "cantidad": 1, "nombreCliente": "Manuela Ospina Trujillo", "edadCliente": 35, "precioTotal": 9200 },
-    { "fecha": "2026-02-22", "producto": 124, "cantidad": 1, "nombreCliente": "Wilmer Alonso Ceballos", "edadCliente": 53, "precioTotal": 5900 },
-    { "fecha": "2026-02-23", "producto": 108, "cantidad": 3, "nombreCliente": "María José Cárdenas", "edadCliente": 41, "precioTotal": 34500 },
-    { "fecha": "2026-02-24", "producto": 106, "cantidad": 2, "nombreCliente": "Luz Marina Botero", "edadCliente": 64, "precioTotal": 14400 },
-    { "fecha": "2026-02-25", "producto": 104, "cantidad": 1, "nombreCliente": "Cristian Camilo Duque", "edadCliente": 31, "precioTotal": 14200 },
-    { "fecha": "2026-02-26", "producto": 113, "cantidad": 3, "nombreCliente": "Laura Camila Bedoya", "edadCliente": 24, "precioTotal": 16200 },
-    { "fecha": "2026-02-27", "producto": 119, "cantidad": 2, "nombreCliente": "Roberto Silva Quintero", "edadCliente": 63, "precioTotal": 8400 },
-    { "fecha": "2026-02-27", "producto": 122, "cantidad": 1, "nombreCliente": "Roberto Silva Quintero", "edadCliente": 63, "precioTotal": 18700 },
-    { "fecha": "2026-02-28", "producto": 110, "cantidad": 4, "nombreCliente": "Daniela Estrada Vélez", "edadCliente": 26, "precioTotal": 19200 },
-    { "fecha": "2026-03-01", "producto": 111, "cantidad": 1, "nombreCliente": "Carolina Ríos Mora", "edadCliente": 46, "precioTotal": 18900 },
-    { "fecha": "2026-03-02", "producto": 101, "cantidad": 3, "nombreCliente": "Sebastián Vélez Ortiz", "edadCliente": 29, "precioTotal": 85500 },
-    { "fecha": "2026-03-03", "producto": 117, "cantidad": 3, "nombreCliente": "Paola Andrea Suárez", "edadCliente": 38, "precioTotal": 23400 },
-    { "fecha": "2026-03-03", "producto": 116, "cantidad": 4, "nombreCliente": "Paola Andrea Suárez", "edadCliente": 38, "precioTotal": 18000 },
-    { "fecha": "2026-03-04", "producto": 109, "cantidad": 2, "nombreCliente": "Beatriz Elena Cano", "edadCliente": 59, "precioTotal": 26800 },
-    { "fecha": "2026-03-05", "producto": 103, "cantidad": 1, "nombreCliente": "Felipe Andrés Marín", "edadCliente": 39, "precioTotal": 24900 },
-    { "fecha": "2026-03-05", "producto": 104, "cantidad": 2, "nombreCliente": "Felipe Andrés Marín", "edadCliente": 39, "precioTotal": 28400 },
-    { "fecha": "2026-03-06", "producto": 125, "cantidad": 4, "nombreCliente": "Jhon Jairo Ospina", "edadCliente": 27, "precioTotal": 10000 },
-    { "fecha": "2026-03-07", "producto": 121, "cantidad": 1, "nombreCliente": "Marta Lucía Henao Vásquez", "edadCliente": 54, "precioTotal": 22400 },
-    { "fecha": "2026-03-07", "producto": 120, "cantidad": 1, "nombreCliente": "Marta Lucía Henao Vásquez", "edadCliente": 54, "precioTotal": 16500 },
-    { "fecha": "2026-03-08", "producto": 107, "cantidad": 2, "nombreCliente": "Diana Carolina Rojas", "edadCliente": 29, "precioTotal": 17800 },
-    { "fecha": "2026-03-09", "producto": 115, "cantidad": 3, "nombreCliente": "Iván Darío Castaño", "edadCliente": 47, "precioTotal": 20700 },
-    { "fecha": "2026-03-10", "producto": 102, "cantidad": 4, "nombreCliente": "Miguel Ángel Tabares", "edadCliente": 36, "precioTotal": 27200 },
-    { "fecha": "2026-03-11", "producto": 124, "cantidad": 2, "nombreCliente": "Karen Yulieth Bermúdez", "edadCliente": 23, "precioTotal": 11800 },
-    { "fecha": "2026-03-12", "producto": 108, "cantidad": 1, "nombreCliente": "Tomás Alberto Jiménez", "edadCliente": 28, "precioTotal": 11500 },
-    { "fecha": "2026-03-13", "producto": 105, "cantidad": 2, "nombreCliente": "Patricia Eugenia Soto", "edadCliente": 60, "precioTotal": 19000 },
-    { "fecha": "2026-03-13", "producto": 106, "cantidad": 1, "nombreCliente": "Patricia Eugenia Soto", "edadCliente": 60, "precioTotal": 7200 },
-    { "fecha": "2026-03-14", "producto": 113, "cantidad": 1, "nombreCliente": "Alejandro Posada Uribe", "edadCliente": 33, "precioTotal": 5400 },
-    { "fecha": "2026-03-15", "producto": 114, "cantidad": 4, "nombreCliente": "Óscar Eduardo Pineda", "edadCliente": 50, "precioTotal": 32400 },
-    { "fecha": "2026-03-16", "producto": 110, "cantidad": 2, "nombreCliente": "Yesenia Andrea Pérez", "edadCliente": 26, "precioTotal": 9600 },
-    { "fecha": "2026-03-16", "producto": 111, "cantidad": 1, "nombreCliente": "Yesenia Andrea Pérez", "edadCliente": 26, "precioTotal": 18900 },
-    { "fecha": "2026-03-17", "producto": 122, "cantidad": 2, "nombreCliente": "Verónica Aguilar Mesa", "edadCliente": 31, "precioTotal": 37400 },
-    { "fecha": "2026-03-18", "producto": 119, "cantidad": 3, "nombreCliente": "Hernán Patiño Zuluaga", "edadCliente": 68, "precioTotal": 12600 },
-    { "fecha": "2026-03-19", "producto": 118, "cantidad": 2, "nombreCliente": "Natalia Ocampo Builes", "edadCliente": 33, "precioTotal": 18400 },
-    { "fecha": "2026-03-20", "producto": 117, "cantidad": 2, "nombreCliente": "Camilo Andrés Galeano", "edadCliente": 41, "precioTotal": 15600 },
-    { "fecha": "2026-03-21", "producto": 112, "cantidad": 3, "nombreCliente": "Diana Carolina Rojas", "edadCliente": 29, "precioTotal": 22800 },
-    { "fecha": "2026-03-22", "producto": 123, "cantidad": 1, "nombreCliente": "Esperanza Giraldo Ruiz", "edadCliente": 67, "precioTotal": 6500 },
-    { "fecha": "2026-03-23", "producto": 101, "cantidad": 1, "nombreCliente": "Mateo Sebastián Arboleda", "edadCliente": 36, "precioTotal": 28500 },
-    { "fecha": "2026-03-24", "producto": 124, "cantidad": 6, "nombreCliente": "Santiago Alejandro Ríos", "edadCliente": 21, "precioTotal": 35400 },
-    { "fecha": "2026-03-25", "producto": 103, "cantidad": 1, "nombreCliente": "Adriana Lucía Cifuentes", "edadCliente": 51, "precioTotal": 24900 },
-    { "fecha": "2026-03-25", "producto": 116, "cantidad": 2, "nombreCliente": "Adriana Lucía Cifuentes", "edadCliente": 51, "precioTotal": 9000 },
-    { "fecha": "2026-03-26", "producto": 109, "cantidad": 1, "nombreCliente": "Ricardo Montoya Salazar", "edadCliente": 55, "precioTotal": 13400 },
-    { "fecha": "2026-03-27", "producto": 125, "cantidad": 10, "nombreCliente": "Sofía Valentina Toro", "edadCliente": 22, "precioTotal": 25000 },
-    { "fecha": "2026-03-28", "producto": 107, "cantidad": 2, "nombreCliente": "Esteban Gutiérrez Lara", "edadCliente": 45, "precioTotal": 17800 },
-    { "fecha": "2026-03-28", "producto": 108, "cantidad": 1, "nombreCliente": "Esteban Gutiérrez Lara", "edadCliente": 45, "precioTotal": 11500 },
-    { "fecha": "2026-03-29", "producto": 102, "cantidad": 3, "nombreCliente": "Lucía Mendoza Pérez", "edadCliente": 52, "precioTotal": 20400 },
-    { "fecha": "2026-03-30", "producto": 121, "cantidad": 2, "nombreCliente": "Carlos Mario Henao", "edadCliente": 56, "precioTotal": 44800 },
-    { "fecha": "2026-03-31", "producto": 115, "cantidad": 5, "nombreCliente": "Mauricio Bernal Cifuentes", "edadCliente": 40, "precioTotal": 34500 },
-    { "fecha": "2026-04-01", "producto": 110, "cantidad": 3, "nombreCliente": "Andrés Felipe Vargas", "edadCliente": 34, "precioTotal": 14400 },
-    { "fecha": "2026-04-02", "producto": 111, "cantidad": 2, "nombreCliente": "Valentina Salazar Mejía", "edadCliente": 25, "precioTotal": 37800 },
-    { "fecha": "2026-04-03", "producto": 113, "cantidad": 5, "nombreCliente": "Laura Camila Bedoya", "edadCliente": 24, "precioTotal": 27000 },
-    { "fecha": "2026-04-04", "producto": 104, "cantidad": 1, "nombreCliente": "Juan Pablo Gómez", "edadCliente": 32, "precioTotal": 14200 },
-    { "fecha": "2026-04-05", "producto": 122, "cantidad": 1, "nombreCliente": "Julieta Restrepo Cano", "edadCliente": 30, "precioTotal": 18700 },
-    { "fecha": "2026-04-05", "producto": 123, "cantidad": 1, "nombreCliente": "Julieta Restrepo Cano", "edadCliente": 30, "precioTotal": 6500 },
-    { "fecha": "2026-04-06", "producto": 105, "cantidad": 4, "nombreCliente": "Marcela Hernández Pulgarín", "edadCliente": 37, "precioTotal": 38000 },
-    { "fecha": "2026-04-07", "producto": 116, "cantidad": 3, "nombreCliente": "Cristian Camilo Duque", "edadCliente": 31, "precioTotal": 13500 },
-    { "fecha": "2026-04-08", "producto": 124, "cantidad": 4, "nombreCliente": "Wilmer Alonso Ceballos", "edadCliente": 53, "precioTotal": 23600 },
-    { "fecha": "2026-04-09", "producto": 120, "cantidad": 1, "nombreCliente": "Pedro Nel Quiroz", "edadCliente": 61, "precioTotal": 16500 },
-    { "fecha": "2026-04-10", "producto": 101, "cantidad": 2, "nombreCliente": "Sebastián Vélez Ortiz", "edadCliente": 29, "precioTotal": 57000 },
-    { "fecha": "2026-04-11", "producto": 109, "cantidad": 3, "nombreCliente": "Beatriz Elena Cano", "edadCliente": 59, "precioTotal": 40200 },
-    { "fecha": "2026-04-12", "producto": 107, "cantidad": 4, "nombreCliente": "Manuela Ospina Trujillo", "edadCliente": 35, "precioTotal": 35600 },
-    { "fecha": "2026-04-13", "producto": 119, "cantidad": 5, "nombreCliente": "Liliana Mesa Ortiz", "edadCliente": 49, "precioTotal": 21000 },
-    { "fecha": "2026-04-14", "producto": 108, "cantidad": 2, "nombreCliente": "María José Cárdenas", "edadCliente": 41, "precioTotal": 23000 },
-    { "fecha": "2026-04-15", "producto": 125, "cantidad": 5, "nombreCliente": "Gabriel Antonio Ramírez", "edadCliente": 19, "precioTotal": 12500 },
-    { "fecha": "2026-04-16", "producto": 114, "cantidad": 1, "nombreCliente": "Jorge Iván Acevedo", "edadCliente": 57, "precioTotal": 8100 },
-    { "fecha": "2026-04-17", "producto": 117, "cantidad": 4, "nombreCliente": "Camilo Andrés Galeano", "edadCliente": 41, "precioTotal": 31200 },
-    { "fecha": "2026-04-18", "producto": 102, "cantidad": 2, "nombreCliente": "Hernán Patiño Zuluaga", "edadCliente": 68, "precioTotal": 13600 },
-    { "fecha": "2026-04-19", "producto": 111, "cantidad": 4, "nombreCliente": "Diana Carolina Rojas", "edadCliente": 29, "precioTotal": 75600 },
-    { "fecha": "2026-04-20", "producto": 103, "cantidad": 1, "nombreCliente": "Diego Armando Castro", "edadCliente": 43, "precioTotal": 24900 },
-    { "fecha": "2026-04-21", "producto": 110, "cantidad": 6, "nombreCliente": "Daniela Estrada Vélez", "edadCliente": 26, "precioTotal": 28800 },
-    { "fecha": "2026-04-22", "producto": 121, "cantidad": 1, "nombreCliente": "Ana Lucía Tobón", "edadCliente": 48, "precioTotal": 22400 },
-    { "fecha": "2026-04-22", "producto": 118, "cantidad": 1, "nombreCliente": "Ana Lucía Tobón", "edadCliente": 48, "precioTotal": 9200 },
-    { "fecha": "2026-04-23", "producto": 113, "cantidad": 2, "nombreCliente": "Alejandro Posada Uribe", "edadCliente": 33, "precioTotal": 10800 },
-    { "fecha": "2026-04-24", "producto": 106, "cantidad": 3, "nombreCliente": "Luz Marina Botero", "edadCliente": 64, "precioTotal": 21600 },
-    { "fecha": "2026-04-24", "producto": 105, "cantidad": 2, "nombreCliente": "Luz Marina Botero", "edadCliente": 64, "precioTotal": 19000 }
+    {
+      "fecha": "2026-01-08T16:01:47",
+      "producto": 101,
+      "cantidad": 2,
+      "nombreCliente": "Andrés Felipe Vargas",
+      "edadCliente": 34,
+      "generoCliente": "Masculino",
+      "precioTotal": 57000
+    },
+    {
+      "fecha": "2026-01-08T16:01:47",
+      "producto": 110,
+      "cantidad": 3,
+      "nombreCliente": "Andrés Felipe Vargas",
+      "edadCliente": 34,
+      "generoCliente": "Masculino",
+      "precioTotal": 14400
+    },
+    {
+      "fecha": "2026-01-09T11:14:08",
+      "producto": 103,
+      "cantidad": 1,
+      "nombreCliente": "Lucía Mendoza Pérez",
+      "edadCliente": 52,
+      "generoCliente": "Femenino",
+      "precioTotal": 24900
+    },
+    {
+      "fecha": "2026-01-09T11:14:08",
+      "producto": 105,
+      "cantidad": 2,
+      "nombreCliente": "Lucía Mendoza Pérez",
+      "edadCliente": 52,
+      "generoCliente": "Femenino",
+      "precioTotal": 19000
+    },
+    {
+      "fecha": "2026-01-10T17:43:47",
+      "producto": 124,
+      "cantidad": 4,
+      "nombreCliente": "Jhon Jairo Ospina",
+      "edadCliente": 27,
+      "generoCliente": "Masculino",
+      "precioTotal": 23600
+    },
+    {
+      "fecha": "2026-01-11T19:05:37",
+      "producto": 107,
+      "cantidad": 2,
+      "nombreCliente": "María José Cárdenas",
+      "edadCliente": 41,
+      "generoCliente": "Femenino",
+      "precioTotal": 17800
+    },
+    {
+      "fecha": "2026-01-11T19:05:37",
+      "producto": 108,
+      "cantidad": 1,
+      "nombreCliente": "María José Cárdenas",
+      "edadCliente": 41,
+      "generoCliente": "Femenino",
+      "precioTotal": 11500
+    },
+    {
+      "fecha": "2026-01-12T13:01:05",
+      "producto": 121,
+      "cantidad": 1,
+      "nombreCliente": "Roberto Silva Quintero",
+      "edadCliente": 63,
+      "generoCliente": "Masculino",
+      "precioTotal": 22400
+    },
+    {
+      "fecha": "2026-01-13T10:32:38",
+      "producto": 111,
+      "cantidad": 2,
+      "nombreCliente": "Diana Carolina Rojas",
+      "edadCliente": 29,
+      "generoCliente": "Femenino",
+      "precioTotal": 37800
+    },
+    {
+      "fecha": "2026-01-13T10:32:38",
+      "producto": 112,
+      "cantidad": 1,
+      "nombreCliente": "Diana Carolina Rojas",
+      "edadCliente": 29,
+      "generoCliente": "Femenino",
+      "precioTotal": 7600
+    },
+    {
+      "fecha": "2026-01-14T07:12:45",
+      "producto": 102,
+      "cantidad": 3,
+      "nombreCliente": "Esteban Gutiérrez Lara",
+      "edadCliente": 45,
+      "generoCliente": "Masculino",
+      "precioTotal": 20400
+    },
+    {
+      "fecha": "2026-01-15T17:34:26",
+      "producto": 116,
+      "cantidad": 5,
+      "nombreCliente": "Paola Andrea Suárez",
+      "edadCliente": 38,
+      "generoCliente": "Femenino",
+      "precioTotal": 22500
+    },
+    {
+      "fecha": "2026-01-15T17:34:26",
+      "producto": 117,
+      "cantidad": 2,
+      "nombreCliente": "Paola Andrea Suárez",
+      "edadCliente": 38,
+      "generoCliente": "Femenino",
+      "precioTotal": 15600
+    },
+    {
+      "fecha": "2026-01-16T10:37:17",
+      "producto": 109,
+      "cantidad": 1,
+      "nombreCliente": "Gabriel Antonio Ramírez",
+      "edadCliente": 19,
+      "generoCliente": "Masculino",
+      "precioTotal": 13400
+    },
+    {
+      "fecha": "2026-01-17T18:00:48",
+      "producto": 125,
+      "cantidad": 6,
+      "nombreCliente": "Sofía Valentina Toro",
+      "edadCliente": 22,
+      "generoCliente": "Femenino",
+      "precioTotal": 15000
+    },
+    {
+      "fecha": "2026-01-18T18:44:27",
+      "producto": 120,
+      "cantidad": 1,
+      "nombreCliente": "Carlos Mario Henao",
+      "edadCliente": 56,
+      "generoCliente": "Masculino",
+      "precioTotal": 16500
+    },
+    {
+      "fecha": "2026-01-18T18:44:27",
+      "producto": 119,
+      "cantidad": 4,
+      "nombreCliente": "Carlos Mario Henao",
+      "edadCliente": 56,
+      "generoCliente": "Masculino",
+      "precioTotal": 16800
+    },
+    {
+      "fecha": "2026-01-19T12:09:13",
+      "producto": 104,
+      "cantidad": 2,
+      "nombreCliente": "Natalia Ocampo Builes",
+      "edadCliente": 33,
+      "generoCliente": "Femenino",
+      "precioTotal": 28400
+    },
+    {
+      "fecha": "2026-01-20T20:21:06",
+      "producto": 115,
+      "cantidad": 6,
+      "nombreCliente": "Iván Darío Castaño",
+      "edadCliente": 47,
+      "generoCliente": "Masculino",
+      "precioTotal": 41400
+    },
+    {
+      "fecha": "2026-01-21T09:06:22",
+      "producto": 113,
+      "cantidad": 2,
+      "nombreCliente": "Laura Camila Bedoya",
+      "edadCliente": 24,
+      "generoCliente": "Femenino",
+      "precioTotal": 10800
+    },
+    {
+      "fecha": "2026-01-22T19:38:16",
+      "producto": 106,
+      "cantidad": 1,
+      "nombreCliente": "Hernán Patiño Zuluaga",
+      "edadCliente": 68,
+      "generoCliente": "Masculino",
+      "precioTotal": 7200
+    },
+    {
+      "fecha": "2026-01-22T19:38:16",
+      "producto": 105,
+      "cantidad": 1,
+      "nombreCliente": "Hernán Patiño Zuluaga",
+      "edadCliente": 68,
+      "generoCliente": "Masculino",
+      "precioTotal": 9500
+    },
+    {
+      "fecha": "2026-01-23T18:46:29",
+      "producto": 122,
+      "cantidad": 1,
+      "nombreCliente": "Verónica Aguilar Mesa",
+      "edadCliente": 31,
+      "generoCliente": "Femenino",
+      "precioTotal": 18700
+    },
+    {
+      "fecha": "2026-01-23T18:46:29",
+      "producto": 123,
+      "cantidad": 2,
+      "nombreCliente": "Verónica Aguilar Mesa",
+      "edadCliente": 31,
+      "generoCliente": "Femenino",
+      "precioTotal": 13000
+    },
+    {
+      "fecha": "2026-01-24T15:59:24",
+      "producto": 101,
+      "cantidad": 1,
+      "nombreCliente": "Mateo Sebastián Arboleda",
+      "edadCliente": 36,
+      "generoCliente": "Masculino",
+      "precioTotal": 28500
+    },
+    {
+      "fecha": "2026-01-25T08:18:53",
+      "producto": 124,
+      "cantidad": 2,
+      "nombreCliente": "Isabel Cristina Madrid",
+      "edadCliente": 44,
+      "generoCliente": "Femenino",
+      "precioTotal": 11800
+    },
+    {
+      "fecha": "2026-01-25T08:18:53",
+      "producto": 118,
+      "cantidad": 1,
+      "nombreCliente": "Isabel Cristina Madrid",
+      "edadCliente": 44,
+      "generoCliente": "Femenino",
+      "precioTotal": 9200
+    },
+    {
+      "fecha": "2026-01-26T16:56:55",
+      "producto": 114,
+      "cantidad": 3,
+      "nombreCliente": "Óscar Eduardo Pineda",
+      "edadCliente": 50,
+      "generoCliente": "Masculino",
+      "precioTotal": 24300
+    },
+    {
+      "fecha": "2026-01-27T12:12:45",
+      "producto": 110,
+      "cantidad": 5,
+      "nombreCliente": "Daniela Estrada Vélez",
+      "edadCliente": 26,
+      "generoCliente": "Femenino",
+      "precioTotal": 24000
+    },
+    {
+      "fecha": "2026-01-28T08:42:14",
+      "producto": 111,
+      "cantidad": 1,
+      "nombreCliente": "Felipe Andrés Marín",
+      "edadCliente": 39,
+      "generoCliente": "Masculino",
+      "precioTotal": 18900
+    },
+    {
+      "fecha": "2026-01-29T18:05:54",
+      "producto": 107,
+      "cantidad": 3,
+      "nombreCliente": "Beatriz Elena Cano",
+      "edadCliente": 59,
+      "generoCliente": "Femenino",
+      "precioTotal": 26700
+    },
+    {
+      "fecha": "2026-01-30T10:06:24",
+      "producto": 103,
+      "cantidad": 2,
+      "nombreCliente": "Juan Pablo Gómez",
+      "edadCliente": 32,
+      "generoCliente": "Masculino",
+      "precioTotal": 49800
+    },
+    {
+      "fecha": "2026-01-30T10:06:24",
+      "producto": 104,
+      "cantidad": 1,
+      "nombreCliente": "Juan Pablo Gómez",
+      "edadCliente": 32,
+      "generoCliente": "Masculino",
+      "precioTotal": 14200
+    },
+    {
+      "fecha": "2026-01-31T11:40:53",
+      "producto": 121,
+      "cantidad": 2,
+      "nombreCliente": "Ana Lucía Tobón",
+      "edadCliente": 48,
+      "generoCliente": "Femenino",
+      "precioTotal": 44800
+    },
+    {
+      "fecha": "2026-02-01T12:23:22",
+      "producto": 125,
+      "cantidad": 12,
+      "nombreCliente": "Santiago Alejandro Ríos",
+      "edadCliente": 21,
+      "generoCliente": "Masculino",
+      "precioTotal": 30000
+    },
+    {
+      "fecha": "2026-02-02T10:17:44",
+      "producto": 116,
+      "cantidad": 3,
+      "nombreCliente": "Claudia Patricia Londoño",
+      "edadCliente": 42,
+      "generoCliente": "Femenino",
+      "precioTotal": 13500
+    },
+    {
+      "fecha": "2026-02-02T10:17:44",
+      "producto": 117,
+      "cantidad": 1,
+      "nombreCliente": "Claudia Patricia Londoño",
+      "edadCliente": 42,
+      "generoCliente": "Femenino",
+      "precioTotal": 7800
+    },
+    {
+      "fecha": "2026-02-03T20:41:04",
+      "producto": 109,
+      "cantidad": 2,
+      "nombreCliente": "Ricardo Montoya Salazar",
+      "edadCliente": 55,
+      "generoCliente": "Masculino",
+      "precioTotal": 26800
+    },
+    {
+      "fecha": "2026-02-04T16:10:34",
+      "producto": 102,
+      "cantidad": 5,
+      "nombreCliente": "Marcela Hernández Pulgarín",
+      "edadCliente": 37,
+      "generoCliente": "Femenino",
+      "precioTotal": 34000
+    },
+    {
+      "fecha": "2026-02-05T17:10:29",
+      "producto": 108,
+      "cantidad": 2,
+      "nombreCliente": "Tomás Alberto Jiménez",
+      "edadCliente": 28,
+      "generoCliente": "Masculino",
+      "precioTotal": 23000
+    },
+    {
+      "fecha": "2026-02-06T12:59:40",
+      "producto": 119,
+      "cantidad": 6,
+      "nombreCliente": "Adriana Lucía Cifuentes",
+      "edadCliente": 51,
+      "generoCliente": "Femenino",
+      "precioTotal": 25200
+    },
+    {
+      "fecha": "2026-02-07T17:14:43",
+      "producto": 113,
+      "cantidad": 4,
+      "nombreCliente": "Esteban Gutiérrez Lara",
+      "edadCliente": 45,
+      "generoCliente": "Masculino",
+      "precioTotal": 21600
+    },
+    {
+      "fecha": "2026-02-08T12:49:49",
+      "producto": 124,
+      "cantidad": 3,
+      "nombreCliente": "Karen Yulieth Bermúdez",
+      "edadCliente": 23,
+      "generoCliente": "Femenino",
+      "precioTotal": 17700
+    },
+    {
+      "fecha": "2026-02-09T08:52:02",
+      "producto": 115,
+      "cantidad": 4,
+      "nombreCliente": "Mauricio Bernal Cifuentes",
+      "edadCliente": 40,
+      "generoCliente": "Masculino",
+      "precioTotal": 27600
+    },
+    {
+      "fecha": "2026-02-10T18:25:17",
+      "producto": 101,
+      "cantidad": 1,
+      "nombreCliente": "Andrés Felipe Vargas",
+      "edadCliente": 34,
+      "generoCliente": "Masculino",
+      "precioTotal": 28500
+    },
+    {
+      "fecha": "2026-02-10T18:25:17",
+      "producto": 110,
+      "cantidad": 2,
+      "nombreCliente": "Andrés Felipe Vargas",
+      "edadCliente": 34,
+      "generoCliente": "Masculino",
+      "precioTotal": 9600
+    },
+    {
+      "fecha": "2026-02-11T08:58:36",
+      "producto": 122,
+      "cantidad": 1,
+      "nombreCliente": "Julieta Restrepo Cano",
+      "edadCliente": 30,
+      "generoCliente": "Femenino",
+      "precioTotal": 18700
+    },
+    {
+      "fecha": "2026-02-12T19:20:13",
+      "producto": 105,
+      "cantidad": 3,
+      "nombreCliente": "Lucía Mendoza Pérez",
+      "edadCliente": 52,
+      "generoCliente": "Femenino",
+      "precioTotal": 28500
+    },
+    {
+      "fecha": "2026-02-13T17:25:56",
+      "producto": 120,
+      "cantidad": 2,
+      "nombreCliente": "Pedro Nel Quiroz",
+      "edadCliente": 61,
+      "generoCliente": "Masculino",
+      "precioTotal": 33000
+    },
+    {
+      "fecha": "2026-02-14T19:29:09",
+      "producto": 111,
+      "cantidad": 3,
+      "nombreCliente": "Valentina Salazar Mejía",
+      "edadCliente": 25,
+      "generoCliente": "Femenino",
+      "precioTotal": 56700
+    },
+    {
+      "fecha": "2026-02-14T19:29:09",
+      "producto": 112,
+      "cantidad": 2,
+      "nombreCliente": "Valentina Salazar Mejía",
+      "edadCliente": 25,
+      "generoCliente": "Femenino",
+      "precioTotal": 15200
+    },
+    {
+      "fecha": "2026-02-14T19:29:09",
+      "producto": 109,
+      "cantidad": 1,
+      "nombreCliente": "Valentina Salazar Mejía",
+      "edadCliente": 25,
+      "generoCliente": "Femenino",
+      "precioTotal": 13400
+    },
+    {
+      "fecha": "2026-02-15T11:15:47",
+      "producto": 107,
+      "cantidad": 1,
+      "nombreCliente": "Gabriel Antonio Ramírez",
+      "edadCliente": 19,
+      "generoCliente": "Masculino",
+      "precioTotal": 8900
+    },
+    {
+      "fecha": "2026-02-16T15:16:47",
+      "producto": 103,
+      "cantidad": 1,
+      "nombreCliente": "Diego Armando Castro",
+      "edadCliente": 43,
+      "generoCliente": "Masculino",
+      "precioTotal": 24900
+    },
+    {
+      "fecha": "2026-02-17T16:57:37",
+      "producto": 121,
+      "cantidad": 1,
+      "nombreCliente": "Liliana Mesa Ortiz",
+      "edadCliente": 49,
+      "generoCliente": "Femenino",
+      "precioTotal": 22400
+    },
+    {
+      "fecha": "2026-02-17T16:57:37",
+      "producto": 123,
+      "cantidad": 3,
+      "nombreCliente": "Liliana Mesa Ortiz",
+      "edadCliente": 49,
+      "generoCliente": "Femenino",
+      "precioTotal": 19500
+    },
+    {
+      "fecha": "2026-02-18T13:14:08",
+      "producto": 114,
+      "cantidad": 2,
+      "nombreCliente": "Jorge Iván Acevedo",
+      "edadCliente": 57,
+      "generoCliente": "Masculino",
+      "precioTotal": 16200
+    },
+    {
+      "fecha": "2026-02-19T15:05:48",
+      "producto": 125,
+      "cantidad": 8,
+      "nombreCliente": "Sofía Valentina Toro",
+      "edadCliente": 22,
+      "generoCliente": "Femenino",
+      "precioTotal": 20000
+    },
+    {
+      "fecha": "2026-02-20T08:07:09",
+      "producto": 102,
+      "cantidad": 2,
+      "nombreCliente": "Hernán Patiño Zuluaga",
+      "edadCliente": 68,
+      "generoCliente": "Masculino",
+      "precioTotal": 13600
+    },
+    {
+      "fecha": "2026-02-21T16:50:43",
+      "producto": 116,
+      "cantidad": 2,
+      "nombreCliente": "Manuela Ospina Trujillo",
+      "edadCliente": 35,
+      "generoCliente": "Femenino",
+      "precioTotal": 9000
+    },
+    {
+      "fecha": "2026-02-21T16:50:43",
+      "producto": 118,
+      "cantidad": 1,
+      "nombreCliente": "Manuela Ospina Trujillo",
+      "edadCliente": 35,
+      "generoCliente": "Femenino",
+      "precioTotal": 9200
+    },
+    {
+      "fecha": "2026-02-22T13:04:24",
+      "producto": 124,
+      "cantidad": 1,
+      "nombreCliente": "Wilmer Alonso Ceballos",
+      "edadCliente": 53,
+      "generoCliente": "Masculino",
+      "precioTotal": 5900
+    },
+    {
+      "fecha": "2026-02-23T12:29:33",
+      "producto": 108,
+      "cantidad": 3,
+      "nombreCliente": "María José Cárdenas",
+      "edadCliente": 41,
+      "generoCliente": "Femenino",
+      "precioTotal": 34500
+    },
+    {
+      "fecha": "2026-02-24T11:35:55",
+      "producto": 106,
+      "cantidad": 2,
+      "nombreCliente": "Luz Marina Botero",
+      "edadCliente": 64,
+      "generoCliente": "Femenino",
+      "precioTotal": 14400
+    },
+    {
+      "fecha": "2026-02-25T20:43:46",
+      "producto": 104,
+      "cantidad": 1,
+      "nombreCliente": "Cristian Camilo Duque",
+      "edadCliente": 31,
+      "generoCliente": "Masculino",
+      "precioTotal": 14200
+    },
+    {
+      "fecha": "2026-02-26T09:56:34",
+      "producto": 113,
+      "cantidad": 3,
+      "nombreCliente": "Laura Camila Bedoya",
+      "edadCliente": 24,
+      "generoCliente": "Femenino",
+      "precioTotal": 16200
+    },
+    {
+      "fecha": "2026-02-27T18:49:41",
+      "producto": 119,
+      "cantidad": 2,
+      "nombreCliente": "Roberto Silva Quintero",
+      "edadCliente": 63,
+      "generoCliente": "Masculino",
+      "precioTotal": 8400
+    },
+    {
+      "fecha": "2026-02-27T18:49:41",
+      "producto": 122,
+      "cantidad": 1,
+      "nombreCliente": "Roberto Silva Quintero",
+      "edadCliente": 63,
+      "generoCliente": "Masculino",
+      "precioTotal": 18700
+    },
+    {
+      "fecha": "2026-02-28T12:18:27",
+      "producto": 110,
+      "cantidad": 4,
+      "nombreCliente": "Daniela Estrada Vélez",
+      "edadCliente": 26,
+      "generoCliente": "Femenino",
+      "precioTotal": 19200
+    },
+    {
+      "fecha": "2026-03-01T10:00:46",
+      "producto": 111,
+      "cantidad": 1,
+      "nombreCliente": "Carolina Ríos Mora",
+      "edadCliente": 46,
+      "generoCliente": "Femenino",
+      "precioTotal": 18900
+    },
+    {
+      "fecha": "2026-03-02T19:16:32",
+      "producto": 101,
+      "cantidad": 3,
+      "nombreCliente": "Sebastián Vélez Ortiz",
+      "edadCliente": 29,
+      "generoCliente": "Masculino",
+      "precioTotal": 85500
+    },
+    {
+      "fecha": "2026-03-03T18:32:58",
+      "producto": 117,
+      "cantidad": 3,
+      "nombreCliente": "Paola Andrea Suárez",
+      "edadCliente": 38,
+      "generoCliente": "Femenino",
+      "precioTotal": 23400
+    },
+    {
+      "fecha": "2026-03-03T18:32:58",
+      "producto": 116,
+      "cantidad": 4,
+      "nombreCliente": "Paola Andrea Suárez",
+      "edadCliente": 38,
+      "generoCliente": "Femenino",
+      "precioTotal": 18000
+    },
+    {
+      "fecha": "2026-03-04T09:40:19",
+      "producto": 109,
+      "cantidad": 2,
+      "nombreCliente": "Beatriz Elena Cano",
+      "edadCliente": 59,
+      "generoCliente": "Femenino",
+      "precioTotal": 26800
+    },
+    {
+      "fecha": "2026-03-05T18:32:38",
+      "producto": 103,
+      "cantidad": 1,
+      "nombreCliente": "Felipe Andrés Marín",
+      "edadCliente": 39,
+      "generoCliente": "Masculino",
+      "precioTotal": 24900
+    },
+    {
+      "fecha": "2026-03-05T18:32:38",
+      "producto": 104,
+      "cantidad": 2,
+      "nombreCliente": "Felipe Andrés Marín",
+      "edadCliente": 39,
+      "generoCliente": "Masculino",
+      "precioTotal": 28400
+    },
+    {
+      "fecha": "2026-03-06T10:23:48",
+      "producto": 125,
+      "cantidad": 4,
+      "nombreCliente": "Jhon Jairo Ospina",
+      "edadCliente": 27,
+      "generoCliente": "Masculino",
+      "precioTotal": 10000
+    },
+    {
+      "fecha": "2026-03-07T10:49:59",
+      "producto": 121,
+      "cantidad": 1,
+      "nombreCliente": "Marta Lucía Henao Vásquez",
+      "edadCliente": 54,
+      "generoCliente": "Femenino",
+      "precioTotal": 22400
+    },
+    {
+      "fecha": "2026-03-07T10:49:59",
+      "producto": 120,
+      "cantidad": 1,
+      "nombreCliente": "Marta Lucía Henao Vásquez",
+      "edadCliente": 54,
+      "generoCliente": "Femenino",
+      "precioTotal": 16500
+    },
+    {
+      "fecha": "2026-03-08T15:00:38",
+      "producto": 107,
+      "cantidad": 2,
+      "nombreCliente": "Diana Carolina Rojas",
+      "edadCliente": 29,
+      "generoCliente": "Femenino",
+      "precioTotal": 17800
+    },
+    {
+      "fecha": "2026-03-09T12:01:07",
+      "producto": 115,
+      "cantidad": 3,
+      "nombreCliente": "Iván Darío Castaño",
+      "edadCliente": 47,
+      "generoCliente": "Masculino",
+      "precioTotal": 20700
+    },
+    {
+      "fecha": "2026-03-10T19:56:53",
+      "producto": 102,
+      "cantidad": 4,
+      "nombreCliente": "Miguel Ángel Tabares",
+      "edadCliente": 36,
+      "generoCliente": "Masculino",
+      "precioTotal": 27200
+    },
+    {
+      "fecha": "2026-03-11T18:15:03",
+      "producto": 124,
+      "cantidad": 2,
+      "nombreCliente": "Karen Yulieth Bermúdez",
+      "edadCliente": 23,
+      "generoCliente": "Femenino",
+      "precioTotal": 11800
+    },
+    {
+      "fecha": "2026-03-12T11:36:05",
+      "producto": 108,
+      "cantidad": 1,
+      "nombreCliente": "Tomás Alberto Jiménez",
+      "edadCliente": 28,
+      "generoCliente": "Masculino",
+      "precioTotal": 11500
+    },
+    {
+      "fecha": "2026-03-13T08:31:52",
+      "producto": 105,
+      "cantidad": 2,
+      "nombreCliente": "Patricia Eugenia Soto",
+      "edadCliente": 60,
+      "generoCliente": "Femenino",
+      "precioTotal": 19000
+    },
+    {
+      "fecha": "2026-03-13T08:31:52",
+      "producto": 106,
+      "cantidad": 1,
+      "nombreCliente": "Patricia Eugenia Soto",
+      "edadCliente": 60,
+      "generoCliente": "Femenino",
+      "precioTotal": 7200
+    },
+    {
+      "fecha": "2026-03-14T08:48:34",
+      "producto": 113,
+      "cantidad": 1,
+      "nombreCliente": "Alejandro Posada Uribe",
+      "edadCliente": 33,
+      "generoCliente": "Masculino",
+      "precioTotal": 5400
+    },
+    {
+      "fecha": "2026-03-15T18:08:42",
+      "producto": 114,
+      "cantidad": 4,
+      "nombreCliente": "Óscar Eduardo Pineda",
+      "edadCliente": 50,
+      "generoCliente": "Masculino",
+      "precioTotal": 32400
+    },
+    {
+      "fecha": "2026-03-16T14:35:10",
+      "producto": 110,
+      "cantidad": 2,
+      "nombreCliente": "Yesenia Andrea Pérez",
+      "edadCliente": 26,
+      "generoCliente": "Femenino",
+      "precioTotal": 9600
+    },
+    {
+      "fecha": "2026-03-16T14:35:10",
+      "producto": 111,
+      "cantidad": 1,
+      "nombreCliente": "Yesenia Andrea Pérez",
+      "edadCliente": 26,
+      "generoCliente": "Femenino",
+      "precioTotal": 18900
+    },
+    {
+      "fecha": "2026-03-17T11:55:38",
+      "producto": 122,
+      "cantidad": 2,
+      "nombreCliente": "Verónica Aguilar Mesa",
+      "edadCliente": 31,
+      "generoCliente": "Femenino",
+      "precioTotal": 37400
+    },
+    {
+      "fecha": "2026-03-18T13:13:59",
+      "producto": 119,
+      "cantidad": 3,
+      "nombreCliente": "Hernán Patiño Zuluaga",
+      "edadCliente": 68,
+      "generoCliente": "Masculino",
+      "precioTotal": 12600
+    },
+    {
+      "fecha": "2026-03-19T15:46:44",
+      "producto": 118,
+      "cantidad": 2,
+      "nombreCliente": "Natalia Ocampo Builes",
+      "edadCliente": 33,
+      "generoCliente": "Femenino",
+      "precioTotal": 18400
+    },
+    {
+      "fecha": "2026-03-20T10:19:25",
+      "producto": 117,
+      "cantidad": 2,
+      "nombreCliente": "Camilo Andrés Galeano",
+      "edadCliente": 41,
+      "generoCliente": "Masculino",
+      "precioTotal": 15600
+    },
+    {
+      "fecha": "2026-03-21T21:41:23",
+      "producto": 112,
+      "cantidad": 3,
+      "nombreCliente": "Diana Carolina Rojas",
+      "edadCliente": 29,
+      "generoCliente": "Femenino",
+      "precioTotal": 22800
+    },
+    {
+      "fecha": "2026-03-22T14:33:28",
+      "producto": 123,
+      "cantidad": 1,
+      "nombreCliente": "Esperanza Giraldo Ruiz",
+      "edadCliente": 67,
+      "generoCliente": "Femenino",
+      "precioTotal": 6500
+    },
+    {
+      "fecha": "2026-03-23T09:14:04",
+      "producto": 101,
+      "cantidad": 1,
+      "nombreCliente": "Mateo Sebastián Arboleda",
+      "edadCliente": 36,
+      "generoCliente": "Masculino",
+      "precioTotal": 28500
+    },
+    {
+      "fecha": "2026-03-24T12:37:35",
+      "producto": 124,
+      "cantidad": 6,
+      "nombreCliente": "Santiago Alejandro Ríos",
+      "edadCliente": 21,
+      "generoCliente": "Masculino",
+      "precioTotal": 35400
+    },
+    {
+      "fecha": "2026-03-25T10:14:00",
+      "producto": 103,
+      "cantidad": 1,
+      "nombreCliente": "Adriana Lucía Cifuentes",
+      "edadCliente": 51,
+      "generoCliente": "Femenino",
+      "precioTotal": 24900
+    },
+    {
+      "fecha": "2026-03-25T10:14:00",
+      "producto": 116,
+      "cantidad": 2,
+      "nombreCliente": "Adriana Lucía Cifuentes",
+      "edadCliente": 51,
+      "generoCliente": "Femenino",
+      "precioTotal": 9000
+    },
+    {
+      "fecha": "2026-03-26T08:40:03",
+      "producto": 109,
+      "cantidad": 1,
+      "nombreCliente": "Ricardo Montoya Salazar",
+      "edadCliente": 55,
+      "generoCliente": "Masculino",
+      "precioTotal": 13400
+    },
+    {
+      "fecha": "2026-03-27T10:57:02",
+      "producto": 125,
+      "cantidad": 10,
+      "nombreCliente": "Sofía Valentina Toro",
+      "edadCliente": 22,
+      "generoCliente": "Femenino",
+      "precioTotal": 25000
+    },
+    {
+      "fecha": "2026-03-28T19:04:32",
+      "producto": 107,
+      "cantidad": 2,
+      "nombreCliente": "Esteban Gutiérrez Lara",
+      "edadCliente": 45,
+      "generoCliente": "Masculino",
+      "precioTotal": 17800
+    },
+    {
+      "fecha": "2026-03-28T19:04:32",
+      "producto": 108,
+      "cantidad": 1,
+      "nombreCliente": "Esteban Gutiérrez Lara",
+      "edadCliente": 45,
+      "generoCliente": "Masculino",
+      "precioTotal": 11500
+    },
+    {
+      "fecha": "2026-03-29T11:42:31",
+      "producto": 102,
+      "cantidad": 3,
+      "nombreCliente": "Lucía Mendoza Pérez",
+      "edadCliente": 52,
+      "generoCliente": "Femenino",
+      "precioTotal": 20400
+    },
+    {
+      "fecha": "2026-03-30T10:08:46",
+      "producto": 121,
+      "cantidad": 2,
+      "nombreCliente": "Carlos Mario Henao",
+      "edadCliente": 56,
+      "generoCliente": "Masculino",
+      "precioTotal": 44800
+    },
+    {
+      "fecha": "2026-03-31T20:36:36",
+      "producto": 115,
+      "cantidad": 5,
+      "nombreCliente": "Mauricio Bernal Cifuentes",
+      "edadCliente": 40,
+      "generoCliente": "Masculino",
+      "precioTotal": 34500
+    },
+    {
+      "fecha": "2026-04-01T14:50:30",
+      "producto": 110,
+      "cantidad": 3,
+      "nombreCliente": "Andrés Felipe Vargas",
+      "edadCliente": 34,
+      "generoCliente": "Masculino",
+      "precioTotal": 14400
+    },
+    {
+      "fecha": "2026-04-02T18:12:06",
+      "producto": 111,
+      "cantidad": 2,
+      "nombreCliente": "Valentina Salazar Mejía",
+      "edadCliente": 25,
+      "generoCliente": "Femenino",
+      "precioTotal": 37800
+    },
+    {
+      "fecha": "2026-04-03T09:27:22",
+      "producto": 113,
+      "cantidad": 5,
+      "nombreCliente": "Laura Camila Bedoya",
+      "edadCliente": 24,
+      "generoCliente": "Femenino",
+      "precioTotal": 27000
+    },
+    {
+      "fecha": "2026-04-04T13:29:55",
+      "producto": 104,
+      "cantidad": 1,
+      "nombreCliente": "Juan Pablo Gómez",
+      "edadCliente": 32,
+      "generoCliente": "Masculino",
+      "precioTotal": 14200
+    },
+    {
+      "fecha": "2026-04-05T17:43:41",
+      "producto": 122,
+      "cantidad": 1,
+      "nombreCliente": "Julieta Restrepo Cano",
+      "edadCliente": 30,
+      "generoCliente": "Femenino",
+      "precioTotal": 18700
+    },
+    {
+      "fecha": "2026-04-05T17:43:41",
+      "producto": 123,
+      "cantidad": 1,
+      "nombreCliente": "Julieta Restrepo Cano",
+      "edadCliente": 30,
+      "generoCliente": "Femenino",
+      "precioTotal": 6500
+    },
+    {
+      "fecha": "2026-04-06T21:06:03",
+      "producto": 105,
+      "cantidad": 4,
+      "nombreCliente": "Marcela Hernández Pulgarín",
+      "edadCliente": 37,
+      "generoCliente": "Femenino",
+      "precioTotal": 38000
+    },
+    {
+      "fecha": "2026-04-07T13:21:51",
+      "producto": 116,
+      "cantidad": 3,
+      "nombreCliente": "Cristian Camilo Duque",
+      "edadCliente": 31,
+      "generoCliente": "Masculino",
+      "precioTotal": 13500
+    },
+    {
+      "fecha": "2026-04-08T19:15:12",
+      "producto": 124,
+      "cantidad": 4,
+      "nombreCliente": "Wilmer Alonso Ceballos",
+      "edadCliente": 53,
+      "generoCliente": "Masculino",
+      "precioTotal": 23600
+    },
+    {
+      "fecha": "2026-04-09T10:28:08",
+      "producto": 120,
+      "cantidad": 1,
+      "nombreCliente": "Pedro Nel Quiroz",
+      "edadCliente": 61,
+      "generoCliente": "Masculino",
+      "precioTotal": 16500
+    },
+    {
+      "fecha": "2026-04-10T13:17:29",
+      "producto": 101,
+      "cantidad": 2,
+      "nombreCliente": "Sebastián Vélez Ortiz",
+      "edadCliente": 29,
+      "generoCliente": "Masculino",
+      "precioTotal": 57000
+    },
+    {
+      "fecha": "2026-04-11T11:59:04",
+      "producto": 109,
+      "cantidad": 3,
+      "nombreCliente": "Beatriz Elena Cano",
+      "edadCliente": 59,
+      "generoCliente": "Femenino",
+      "precioTotal": 40200
+    },
+    {
+      "fecha": "2026-04-12T14:55:54",
+      "producto": 107,
+      "cantidad": 4,
+      "nombreCliente": "Manuela Ospina Trujillo",
+      "edadCliente": 35,
+      "generoCliente": "Femenino",
+      "precioTotal": 35600
+    },
+    {
+      "fecha": "2026-04-13T15:03:41",
+      "producto": 119,
+      "cantidad": 5,
+      "nombreCliente": "Liliana Mesa Ortiz",
+      "edadCliente": 49,
+      "generoCliente": "Femenino",
+      "precioTotal": 21000
+    },
+    {
+      "fecha": "2026-04-14T21:53:00",
+      "producto": 108,
+      "cantidad": 2,
+      "nombreCliente": "María José Cárdenas",
+      "edadCliente": 41,
+      "generoCliente": "Femenino",
+      "precioTotal": 23000
+    },
+    {
+      "fecha": "2026-04-15T20:59:48",
+      "producto": 125,
+      "cantidad": 5,
+      "nombreCliente": "Gabriel Antonio Ramírez",
+      "edadCliente": 19,
+      "generoCliente": "Masculino",
+      "precioTotal": 12500
+    },
+    {
+      "fecha": "2026-04-16T19:10:26",
+      "producto": 114,
+      "cantidad": 1,
+      "nombreCliente": "Jorge Iván Acevedo",
+      "edadCliente": 57,
+      "generoCliente": "Masculino",
+      "precioTotal": 8100
+    },
+    {
+      "fecha": "2026-04-17T14:13:55",
+      "producto": 117,
+      "cantidad": 4,
+      "nombreCliente": "Camilo Andrés Galeano",
+      "edadCliente": 41,
+      "generoCliente": "Masculino",
+      "precioTotal": 31200
+    },
+    {
+      "fecha": "2026-04-18T13:03:10",
+      "producto": 102,
+      "cantidad": 2,
+      "nombreCliente": "Hernán Patiño Zuluaga",
+      "edadCliente": 68,
+      "generoCliente": "Masculino",
+      "precioTotal": 13600
+    },
+    {
+      "fecha": "2026-04-19T12:24:16",
+      "producto": 111,
+      "cantidad": 4,
+      "nombreCliente": "Diana Carolina Rojas",
+      "edadCliente": 29,
+      "generoCliente": "Femenino",
+      "precioTotal": 75600
+    },
+    {
+      "fecha": "2026-04-20T19:50:29",
+      "producto": 103,
+      "cantidad": 1,
+      "nombreCliente": "Diego Armando Castro",
+      "edadCliente": 43,
+      "generoCliente": "Masculino",
+      "precioTotal": 24900
+    },
+    {
+      "fecha": "2026-04-21T11:44:46",
+      "producto": 110,
+      "cantidad": 6,
+      "nombreCliente": "Daniela Estrada Vélez",
+      "edadCliente": 26,
+      "generoCliente": "Femenino",
+      "precioTotal": 28800
+    },
+    {
+      "fecha": "2026-04-22T21:35:42",
+      "producto": 121,
+      "cantidad": 1,
+      "nombreCliente": "Ana Lucía Tobón",
+      "edadCliente": 48,
+      "generoCliente": "Femenino",
+      "precioTotal": 22400
+    },
+    {
+      "fecha": "2026-04-22T21:35:42",
+      "producto": 118,
+      "cantidad": 1,
+      "nombreCliente": "Ana Lucía Tobón",
+      "edadCliente": 48,
+      "generoCliente": "Femenino",
+      "precioTotal": 9200
+    },
+    {
+      "fecha": "2026-04-23T17:09:12",
+      "producto": 113,
+      "cantidad": 2,
+      "nombreCliente": "Alejandro Posada Uribe",
+      "edadCliente": 33,
+      "generoCliente": "Masculino",
+      "precioTotal": 10800
+    },
+    {
+      "fecha": "2026-04-24T11:03:37",
+      "producto": 106,
+      "cantidad": 3,
+      "nombreCliente": "Luz Marina Botero",
+      "edadCliente": 64,
+      "generoCliente": "Femenino",
+      "precioTotal": 21600
+    },
+    {
+      "fecha": "2026-04-24T11:03:37",
+      "producto": 105,
+      "cantidad": 2,
+      "nombreCliente": "Luz Marina Botero",
+      "edadCliente": 64,
+      "generoCliente": "Femenino",
+      "precioTotal": 19000
+    }
   ]
 }

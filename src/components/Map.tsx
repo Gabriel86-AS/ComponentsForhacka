@@ -113,7 +113,7 @@ export function Map({ className }: MapProps) {
     >
       <DeckGL
         viewState={viewState}
-        onViewStateChange={(e) => setViewState(e.viewState)}
+        onViewStateChange={(e) => setViewState(e.viewState as any)}
         controller={true}
         layers={[layer]}
       >
