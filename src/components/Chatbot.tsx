@@ -2,7 +2,8 @@ import { useState, useRef, useEffect, useCallback, type KeyboardEvent } from "re
 import { useChat } from "@ai-sdk/react";
 import { DefaultChatTransport, type UIMessage } from "ai";
 import { Bot, User, Send, Square, RotateCcw, MessageSquare } from "lucide-react";
-
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -108,9 +109,11 @@ export function Chatbot({
       return message.parts.map((part, i) => {
         if (part.type === "text") {
           return (
-            <span key={i} className="whitespace-pre-wrap break-words">
-              {part.text}
-            </span>
+            <div key={i} className="prose dark:prose-invert prose-p:leading-relaxed prose-pre:p-0 max-w-none prose-sm break-words">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {part.text}
+              </ReactMarkdown>
+            </div>
           );
         }
         return null;
@@ -130,7 +133,7 @@ export function Chatbot({
       {/* ---- Header ---- */}
       <CardHeader className="border-b border-border/50 pb-4 flex-shrink-0">
         <CardTitle className="flex items-center gap-2 text-lg">
-          <div className="flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-indigo-600 text-white">
+          <div className="flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-br from-green-500 to-emerald-600 text-white">
             <Bot className="w-4 h-4" />
           </div>
           {title}
@@ -147,8 +150,8 @@ export function Chatbot({
           {/* Empty state */}
           {messages.length === 0 && (
             <div className="flex flex-col items-center justify-center h-full text-muted-foreground gap-3 animate-fade-in">
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-violet-500/10 to-indigo-600/10 flex items-center justify-center">
-                <MessageSquare className="w-7 h-7 text-violet-500" />
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-500/10 to-emerald-600/10 flex items-center justify-center">
+                <MessageSquare className="w-7 h-7 text-green-500" />
               </div>
               <p className="text-sm font-medium">Start a conversation</p>
               <p className="text-xs text-center max-w-[240px]">
@@ -174,7 +177,7 @@ export function Chatbot({
                     "flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white mt-0.5",
                     isUser
                       ? "bg-gradient-to-br from-emerald-500 to-teal-600"
-                      : "bg-gradient-to-br from-violet-500 to-indigo-600"
+                      : "bg-gradient-to-br from-green-500 to-emerald-600"
                   )}
                 >
                   {isUser ? (
@@ -202,7 +205,7 @@ export function Chatbot({
           {/* Thinking indicator */}
           {status === "submitted" && (
             <div className="flex gap-3 animate-fade-in">
-              <div className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white bg-gradient-to-br from-violet-500 to-indigo-600 mt-0.5">
+              <div className="flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white bg-gradient-to-br from-green-500 to-emerald-600 mt-0.5">
                 <Bot className="w-3.5 h-3.5" />
               </div>
               <div className="bg-muted rounded-2xl rounded-bl-md px-4 py-3 flex gap-1.5 items-center">
@@ -263,7 +266,7 @@ export function Chatbot({
               size="icon"
               onClick={handleSubmit}
               disabled={!input.trim()}
-              className="flex-shrink-0 h-10 w-10 rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 hover:from-violet-600 hover:to-indigo-700 text-white shadow-md transition-all hover:shadow-lg disabled:opacity-40 disabled:shadow-none"
+              className="flex-shrink-0 h-10 w-10 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white shadow-md transition-all hover:shadow-lg disabled:opacity-40 disabled:shadow-none"
               id="chatbot-send-btn"
             >
               <Send className="w-4 h-4" />
